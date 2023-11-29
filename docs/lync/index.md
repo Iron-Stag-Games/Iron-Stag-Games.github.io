@@ -8,9 +8,9 @@ Lync is a file sync tool for Roblox created to meet the needs of the dev communi
 
 Roblox version control is opaque and often unreliable. With [Git](https://git-scm.com/), the industry standard for version control, you can precisely track changes made to your project.
 
-Integrate with version control services to enable collaborative development.
+Integrate with repository hosting services to enable collaborative development.
 
-::: info Version Control Services
+::: info Repository Hosting Services
 - [GitHub](https://github.com/) *(Recommended)*
 - [Bitbucket](https://bitbucket.org/)
 - [GitLab](https://about.gitlab.com/)
@@ -33,8 +33,8 @@ See [lync/project-format/files/filetypes](/lync/project-format/files/filetypes).
 
 ### Automation
 
-Lync offers additional built-in tools for power users to expand their capabilities in Roblox.
+Lync offers additional built-in tools for power users to automate aspects of the project.
 
-- [**Packages**](/lync/project-format/project-json/packages) - Download Git repositories and insert their contents into the project.
+- [**Packages**](/lync/project-format/project-json/packages) - Download GitHub repositories and insert their contents into the project.
 - [**Automated Downloads**](/lync/project-format/project-json/automated-downloads) - Download a list of sources into the project.
 - [**Automated Jobs**](/lync/project-format/project-json/automated-jobs) - Run scripts based on file system event criteria.
