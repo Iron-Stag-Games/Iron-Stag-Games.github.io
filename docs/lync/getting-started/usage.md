@@ -11,7 +11,7 @@
 `project.json?` - The project file to read from and serve.
 
 
-`REMOTE?` - Connect to the project's 'remoteAddress' instead of the localhost.
+`REMOTE?` - Connect to the project's `remoteAddress` instead of the localhost.
 
 ::: warning
 `REMOTE` is unimplemented!
