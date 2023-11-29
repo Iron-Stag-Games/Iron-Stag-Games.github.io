@@ -5,6 +5,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
 	title: 'Iron Stag Games',
 	description: ' ',
+	cleanUrls: true,
 
 	head: [
 		['link', { rel: 'icon', href: '/favicon.ico' }],
@@ -12,12 +13,12 @@ export default defineConfig({
 
 	themeConfig: {
 		logo: '/favicon.ico',
-		siteTitle: 'ISG Docs',
+		siteTitle: 'Documentation & API',
 
 		// https://vitepress.dev/reference/default-theme-config
 		nav: [
-			{ text: 'Lync', link: '/lync/' },
-			{ text: 'Pronghorn', link: '/pronghorn/' }
+			{ text: 'Lync', link: '/lync/', activeMatch: '/lync/' },
+			{ text: 'Pronghorn', link: '/pronghorn/', activeMatch: '/pronghorn/' }
 		],
 
 		sidebar: {
@@ -27,21 +28,14 @@ export default defineConfig({
 					collapsed: false,
 					items: [
 						{ text: 'What is Lync?', link: '/lync/' },
-						{ text: 'Installation', link: '/lync/introduction/installation' },
-						{
-							text: 'Features',
-							collapsed: false,
-							items: [
-								{ text: 'Command Line', link: '/lync/introduction/features/command-line' },
-								{ text: 'Studio Plugin', link: '/lync/introduction/features/studio-plugin' }
-							]
-						}
+						{ text: 'Installation', link: '/lync/introduction/installation' }
 					]
 				},
 				{
 					text: 'Getting Started',
 					collapsed: false,
 					items: [
+						{ text: 'Usage', link: '/lync/getting-started/usage' },
 						{ text: 'Create a New Project', link: '/lync/getting-started/new-project' },
 						{ text: 'Convert an Existing Place', link: '/lync/getting-started/convert-place' }
 					]
