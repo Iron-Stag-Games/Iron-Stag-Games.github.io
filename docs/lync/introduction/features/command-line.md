@@ -1,4 +1,4 @@
-# Command Line
+## Arguments
 ```
 ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 ┃ LYNC HELP                          Displays the list of available arguments.          ┃
