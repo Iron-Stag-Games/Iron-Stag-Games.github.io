@@ -21,6 +21,7 @@ VS Code in particular has a wide array of extensions available for use with Lync
 
 - [filiptibell/roblox-ui](https://github.com/filiptibell/roblox-ui)
 - [**JohnnyMorganz/luau-lsp**](https://github.com/JohnnyMorganz/luau-lsp) (Recommended)
+- [JohnnyMorganz/StyLua](https://github.com/JohnnyMorganz/StyLua)
 - [Kampfkarren/roblox-lua-autofills](https://github.com/Kampfkarren/roblox-lua-autofills)
 - [**Kampfkarren/selene**](https://github.com/Kampfkarren/selene) (Recommended)
 - ~~[NightrainsRbx/RobloxLsp](https://github.com/NightrainsRbx/RobloxLsp)~~ (Deprecated)
