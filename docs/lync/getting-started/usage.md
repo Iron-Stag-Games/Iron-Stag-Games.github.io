@@ -23,12 +23,6 @@ The `SERVE` and `OPEN` modes start live sync.
 
 `OPEN` functions the same as `SERVE`, except it also opens the project in Roblox Studio.
 
-::: details Usage
-In `OPEN` mode, the `base` place file must be specified in the project file.
-
-See [lync/project-format/project-json/overview](/lync/project-format/project-json/overview).
-:::
-
 Connect to the session through the Roblox Studio plugin.
 
 ### Build to File
