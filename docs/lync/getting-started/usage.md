@@ -4,7 +4,7 @@
 - `LYNC HELP` - Displays the list of available arguments.
 - `LYNC CONFIG` - Opens the config file.
 - `LYNC SERVE project.json? REMOTE?` - Syncs the project.
-- `LYNC OPEN project.json? REMOTE?` - Syncs the project and opens it in Roblox Studio.
+- `LYNC OPEN project.json? REMOTE?` - Build, syncs, and opens the project in Roblox Studio.
 - `LYNC BUILD project.json?` - Builds the project to file.
 - `LYNC FETCH project.json?` - Downloads the list of sources in the project file.
 
@@ -21,7 +21,7 @@
 
 The `SERVE` and `OPEN` modes start live sync.
 
-`OPEN` functions the same as `SERVE`, except it also opens the project in Roblox Studio.
+`OPEN` functions the same as `SERVE`, except it also builds the project and opens it in Roblox Studio.
 
 Connect to the session through the Roblox Studio plugin.
 
