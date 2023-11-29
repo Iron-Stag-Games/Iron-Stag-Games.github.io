@@ -1,1 +1,1 @@
-This feature is not yet available.
+The `LYNC INIT` wizard is not yet available.
