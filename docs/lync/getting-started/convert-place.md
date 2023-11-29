@@ -1,1 +1,1 @@
-The place conversion wizard is not yet available.
+The `LYNC INIT` wizard is not yet available.
