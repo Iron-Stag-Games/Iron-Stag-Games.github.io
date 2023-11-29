@@ -28,6 +28,7 @@ export default defineConfig({
 					collapsed: false,
 					items: [
 						{ text: 'What is Lync?', link: '/lync/' },
+						{ text: 'Community Tooling', link: '/lync/introduction/community-tooling' },
 						{ text: 'Installation', link: '/lync/introduction/installation' }
 					]
 				},
