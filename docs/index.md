@@ -9,7 +9,7 @@ hero:
 
 features:
   - title: Lync
-    details: Lync is a file sync tool for Roblox created to meet the needs of the community and to improve maintainability over similar tools.
+    details: Lync is a file sync tool for Roblox created to meet the needs of the dev community and to improve maintainability over similar tools.
     link: /lync/
     linkText: Docs
   - title: Pronghorn
