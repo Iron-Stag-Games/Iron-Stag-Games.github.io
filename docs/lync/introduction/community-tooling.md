@@ -1,5 +1,5 @@
 # Community Tooling
-Although most (if not all) were originally designed with Rojo in mind, the following tools are compatible with Lync.
+Although most (if not all) were originally designed with Rojo in mind, the following open source tools are compatible with Lync.
 
 This list is by no means complete.
 
