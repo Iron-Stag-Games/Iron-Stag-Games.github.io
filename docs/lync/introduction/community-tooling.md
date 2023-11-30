@@ -10,7 +10,7 @@ This list is by no means complete.
 :::
 
 ::: tip
-A package manager is included with Lync.
+Lync can download packages and keep them up to date.
 
 See [project-format/project-file/packages](/lync/project-format/project-file/packages).
 :::
