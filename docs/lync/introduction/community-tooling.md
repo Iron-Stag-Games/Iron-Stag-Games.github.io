@@ -22,6 +22,7 @@ This list is by no means complete.
 
 ## Cross Compilers
 - [Haxe](https://haxe.org/)
+- [JsToLua](https://github.com/Roblox/js-to-lua)
 - [MoonScript](https://moonscript.org/)
 - [roblox-pyc](https://robloxpyc.gitbook.io/roblox-pyc/)
 - [roblox-ts](https://roblox-ts.com/)
