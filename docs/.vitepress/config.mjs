@@ -40,7 +40,7 @@ export default defineConfig({
 							text: 'Usage',
 							collapsed: false,
 							items: [
-								{ text: 'Command Line', link: '/lync/getting-started/usage/command-line' },
+								{ text: 'Lync Executable', link: '/lync/getting-started/usage/lync-executable' },
 								{ text: 'Studio Plugin', link: '/lync/getting-started/usage/studio-plugin' }
 							]
 						},

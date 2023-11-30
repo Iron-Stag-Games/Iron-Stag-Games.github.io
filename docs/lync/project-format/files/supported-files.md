@@ -1,7 +1,12 @@
 # Supported Files
+Different file types are synced into the place in different forms.
+
+All forms of Roblox content can be stored on the filesystem and synced.
+
+::: info Supported Files
 | Concept | File Extension | Roblox ClassName |
 |-|-|-|
-| Folders | any directory | Folder
+| Folders | any directory | [Folder](https://create.roblox.com/docs/reference/engine/classes/Folder)
 | Scripts | `LUA`/`LUAU` | [LuaSourceContainer](https://create.roblox.com/docs/reference/engine/classes/LuaSourceContainer) * |
 | Models | `RBXM`/`RBXMX` | Varies |
 | JSON Objects | `JSON` | [ModuleScript](https://create.roblox.com/docs/reference/engine/classes/ModuleScript) |
@@ -17,3 +22,4 @@
 | Meta Files | `*.Meta.JSON` / `YAML` / `TOML` | N/A |
 
 \* Can be [ModuleScript](https://create.roblox.com/docs/reference/engine/classes/ModuleScript), [Script](https://create.roblox.com/docs/reference/engine/classes/Script), or [LocalScript](https://create.roblox.com/docs/reference/engine/classes/ModuleScript) depending on the script run context directive
+:::

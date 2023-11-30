@@ -1,6 +1,6 @@
-# Command Line
-
-### List of Arguments
+# Lync Executable
+The Lync executable can start a live sync session, build to file, and fetch downloads.
+::: info Command Line Arguments
 - `LYNC HELP` - Displays the list of available arguments.
 - `LYNC CONFIG` - Opens the config file.
 - `LYNC SERVE project.json? REMOTE?` - Syncs the project.
@@ -12,12 +12,13 @@
 
 
 `REMOTE?` - Connect to the project's `remoteAddress` instead of the localhost.
+:::
 
 ::: warning
 `REMOTE` is unimplemented!
 :::
 
-### Live Sync
+## Live Sync
 
 The `SERVE` and `OPEN` modes start live sync.
 
@@ -25,13 +26,13 @@ The `SERVE` and `OPEN` modes start live sync.
 
 Connect to the session through the Roblox Studio plugin.
 
-### Build to File
+## Build to File
 
 The `BUILD` mode builds the project to a place (or model) file.
 
 This mode works without having Roblox Studio installed and without an internet connection.
 
-### Fetch Downloads
+## Fetch Downloads
 
 The `FETCH` mode downloads the list of sources in the project file.
 
