@@ -38,3 +38,13 @@ Lync offers additional built-in tools for power users to automate aspects of the
 - [**Packages**](/lync/project-format/project-file/packages) - Download GitHub repositories and insert their contents into the project.
 - [**Automated Downloads**](/lync/project-format/project-file/automated-downloads) - Download a list of sources into the project.
 - [**Automated Jobs**](/lync/project-format/project-file/automated-jobs) - Run scripts based on file system event criteria.
+
+## Games Made With Lync
+::: info Games Made With Lync
+- [Claw Machine Simulator - Fund For Games](https://www.roblox.com/games/8875360163)
+- [ExoTech - Iron Stag Games](https://www.roblox.com/games/7634484468)
+- [RB Battles - RB Battles Games](https://www.roblox.com/games/5036207802)
+- [Traitor Town - Traitor Town](https://www.roblox.com/games/255236425)
+- NDA title - RB Battles PVP
+- NDA title - Fund For Games
+:::
