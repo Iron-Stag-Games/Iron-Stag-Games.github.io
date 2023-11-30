@@ -27,9 +27,9 @@ Connect to the session through the Roblox Studio plugin.
 
 ### Build to File
 
-The `BUILD` mode executes building the project to a place (or model) file.
+The `BUILD` mode builds the project to a place (or model) file.
 
-This works without having Roblox Studio installed and without an internet connection.
+This mode works without having Roblox Studio installed and without an internet connection.
 
 ### Fetch Downloads
 
