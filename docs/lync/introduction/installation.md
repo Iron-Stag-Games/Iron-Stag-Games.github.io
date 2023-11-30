@@ -8,10 +8,12 @@ aftman add --global Iron-Stag-Games/Lync
 ::: details Manually
 Download [the latest release asset](https://github.com/Iron-Stag-Games/Lync/releases/latest) and extract the binary to wherever is most convenient.
 
-* **Windows** - It's recommended that you modify your `Path` system environment variable so you can run the tool with simply `LYNC`.
+In Windows, it's recommended that you modify your `Path` system environment variable so you can run the tool with simply `LYNC`.
 :::
 ::: details Building from Source
 * **Windows** - Launch `Compile_Lync.bat` from the repository root.
+* **macOS** - Currently unavailable
+* **Linux** - Currently unavailable
 :::
 
 The Roblox Studio plugin installs automatically each time a live sync session is started.
