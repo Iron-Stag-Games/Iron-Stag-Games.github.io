@@ -29,12 +29,12 @@ The Roblox Studio editor is slow and has a limited feature set. Lync allows you 
 
 Unlike [the upcoming built-in Open Cloud file sync feature](https://devforum.roblox.com/t/what-we-announced-at-rdc-2023/2585405), Lync deals with more than just scripts - all in-game content can be synced: scripts, models, and properties.
 
-See [lync/project-format/files/filetypes](/lync/project-format/files/filetypes).
+See [project-format/files/supported-files](/lync/project-format/files/supported-files).
 
 ### Automation
 
 Lync offers additional built-in tools for power users to automate aspects of the project.
 
-- [**Packages**](/lync/project-format/project-json/packages) - Download GitHub repositories and insert their contents into the project.
-- [**Automated Downloads**](/lync/project-format/project-json/automated-downloads) - Download a list of sources into the project.
-- [**Automated Jobs**](/lync/project-format/project-json/automated-jobs) - Run scripts based on file system event criteria.
+- [**Packages**](/lync/project-format/project-file/packages) - Download GitHub repositories and insert their contents into the project.
+- [**Automated Downloads**](/lync/project-format/project-file/automated-downloads) - Download a list of sources into the project.
+- [**Automated Jobs**](/lync/project-format/project-file/automated-jobs) - Run scripts based on file system event criteria.

@@ -36,7 +36,14 @@ export default defineConfig({
 					text: 'Getting Started',
 					collapsed: false,
 					items: [
-						{ text: 'Usage', link: '/lync/getting-started/usage' },
+						{
+							text: 'Usage',
+							collapsed: false,
+							items: [
+								{ text: 'Command Line', link: '/lync/getting-started/usage/command-line' },
+								{ text: 'Studio Plugin', link: '/lync/getting-started/usage/studio-plugin' }
+							]
+						},
 						{ text: 'Create a New Project', link: '/lync/getting-started/new-project' },
 						{ text: 'Convert an Existing Place', link: '/lync/getting-started/convert-place' }
 					]
@@ -49,19 +56,21 @@ export default defineConfig({
 							text: 'Project File',
 							collapsed: false,
 							items: [
-								{ text: 'Syntax', link: '/lync/project-format/project-json/overview' },
-								{ text: 'Packages', link: '/lync/project-format/project-json/packages' },
-								{ text: 'Automated Downloads', link: '/lync/project-format/project-json/automated-downloads' },
-								{ text: 'Automated Jobs', link: '/lync/project-format/project-json/automated-jobs' }
+								{ text: 'Syntax', link: '/lync/project-format/project-file/syntax' },
+								{ text: 'Packages', link: '/lync/project-format/project-file/packages' },
+								{ text: 'Automated Downloads', link: '/lync/project-format/project-file/automated-downloads' },
+								{ text: 'Automated Jobs', link: '/lync/project-format/project-file/automated-jobs' }
 							]
 						},
 						{
 							text: 'Files',
 							collapsed: false,
 							items: [
-								{ text: 'Filetypes', link: '/lync/project-format/files/filetypes' },
-								{ text: 'Model Files', link: '/lync/project-format/files/model-files' },
-								{ text: 'Meta Files', link: '/lync/project-format/files/meta-files' }
+								{ text: 'Supported Files', link: '/lync/project-format/files/supported-files' },
+								{ text: 'Script Directives', link: '/lync/project-format/files/script-directives' },
+								{ text: 'Init Scripts', link: '/lync/project-format/files/init-scripts' },
+								{ text: 'Meta Files', link: '/lync/project-format/files/meta-files' },
+								{ text: 'JSON Models', link: '/lync/project-format/files/json-models' }
 							]
 						},
 						{ text: 'Sourcemap', link: '/lync/project-format/sourcemap' }
