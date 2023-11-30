@@ -9,6 +9,12 @@ This list is by no means complete.
 - [Wally](https://wally.run/)
 :::
 
+::: tip
+A package manager is included with Lync.
+
+See [project-format/project-file/packages](/lync/project-format/project-file/packages).
+:::
+
 ::: info Language Servers and Linters
 - [Luau Language Server](https://github.com/JohnnyMorganz/luau-lsp)
 - [~~Roblox Luau Language Server~~](https://github.com/NightrainsRbx/RobloxLsp) *(Abandoned)*
