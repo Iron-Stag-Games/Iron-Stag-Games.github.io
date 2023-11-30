@@ -19,7 +19,7 @@ All forms of Roblox content can be stored on the filesystem and synced.
 | JSON Models | `*.Model.JSON` | Varies |
 | Init Scripts (Anonymous) | `Init.LUA` / `LUAU` | [LuaSourceContainer](https://create.roblox.com/docs/reference/engine/classes/LuaSourceContainer) * |
 | Init Scripts (Named) | `*.Init.LUA` / `LUAU` | [LuaSourceContainer](https://create.roblox.com/docs/reference/engine/classes/LuaSourceContainer) * |
-| Meta Files | `*.Meta.JSON` / `YAML` / `TOML` | N/A |
+| Meta Files | `*.Meta.JSON` / `YAML` / `TOML` | - |
 
-\* Can be [ModuleScript](https://create.roblox.com/docs/reference/engine/classes/ModuleScript), [Script](https://create.roblox.com/docs/reference/engine/classes/Script), or [LocalScript](https://create.roblox.com/docs/reference/engine/classes/ModuleScript) depending on the script run context directive
+\* Can be [ModuleScript](https://create.roblox.com/docs/reference/engine/classes/ModuleScript), [Script](https://create.roblox.com/docs/reference/engine/classes/Script), or [LocalScript](https://create.roblox.com/docs/reference/engine/classes/LocalScript) depending on the script run context directive
 :::

@@ -56,7 +56,7 @@ export default defineConfig({
 							text: 'Project File',
 							collapsed: false,
 							items: [
-								{ text: 'Syntax', link: '/lync/project-format/project-file/syntax' },
+								{ text: 'Project File Syntax', link: '/lync/project-format/project-file/project-file-syntax' },
 								{ text: 'Packages', link: '/lync/project-format/project-file/packages' },
 								{ text: 'Automated Downloads', link: '/lync/project-format/project-file/automated-downloads' },
 								{ text: 'Automated Jobs', link: '/lync/project-format/project-file/automated-jobs' }
