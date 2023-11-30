@@ -6,7 +6,7 @@ This list is by no means complete.
 ## Toolchain and Package Managers
 - [Aftman](https://github.com/LPGhatguy/aftman)
 - [~~Foreman~~](https://github.com/Roblox/foreman) *(Abandoned)*
-- [~~Wally~~](https://wally.run/) *(Superseded by [Lync Packages](/lync/project-format/project-json/packages))*
+- [Wally](https://wally.run/)
 
 ## Language Servers and Linters
 - [Luau Language Server](https://github.com/JohnnyMorganz/luau-lsp)
