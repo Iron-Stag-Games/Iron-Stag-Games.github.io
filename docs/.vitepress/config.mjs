@@ -98,7 +98,7 @@ export default defineConfig({
 		lastUpdated: true,
 
 		footer: {
-			message: 'LGPL 2.1',
+			message: 'Lync and Pronghorn released under LGPL 2.1',
 			copyright: 'Copyright © 2023 Iron Stag Games'
 		},
 	}
