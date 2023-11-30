@@ -28,14 +28,14 @@ export default defineConfig({
 					collapsed: false,
 					items: [
 						{ text: 'What is Lync?', link: '/lync/' },
-						{ text: 'Community Tooling', link: '/lync/introduction/community-tooling' },
-						{ text: 'Installation', link: '/lync/introduction/installation' }
+						{ text: 'Community Tooling', link: '/lync/introduction/community-tooling' }
 					]
 				},
 				{
 					text: 'Getting Started',
 					collapsed: false,
 					items: [
+						{ text: 'Installation', link: '/lync/getting-started/installation' },
 						{
 							text: 'Usage',
 							collapsed: false,
