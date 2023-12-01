@@ -2,7 +2,7 @@
 Scripts can be formatted in a few different ways to change their representation in Roblox.
 
 ## Script Directives
-Add Directives to the top of your script to change its ClassName, control its [RunContext](https://create.roblox.com/docs/reference/engine/enums/RunContext), or to disable it.
+Add Directives to the top of your script to change its ClassName, control its [RunContext](https://create.roblox.com/docs/reference/engine/enums/RunContext), or disable it.
 ::: info Script Directives
 | Directive | ClassName | RunContext | Behavior |
 |-|-|-|-|

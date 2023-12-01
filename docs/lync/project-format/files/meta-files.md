@@ -16,7 +16,7 @@ They are used in scenarios where it would be desirable to change the properties 
 ## Examples
 The most common use case is changing the ClassName of a Folder.
 
-If your project has a directory and you want to change its ClassName, you will create a `Init.Meta.JSON` inside it with:
+If your project has a Folder and you want to change its ClassName, you will create a `Init.Meta.JSON` inside it with:
 ```json
 {
 	"className": "Configuration"
