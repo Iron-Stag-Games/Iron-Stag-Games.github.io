@@ -1,6 +1,39 @@
-::: danger UNFINISHED
-This documentation is unfinished.
-:::
 # JSON Models
+JSON Models describe a simple set of Instances.
+
+Unlike Model Files (`RBXM`/`RBXMX`); their data is limited to that which can be stored only inside a JSON file (e.g., no Mesh data.)
 
 ## Syntax
+::: info File Name
+- `*.Model.JSON`
+:::
+::: info Keys
+- string `name` - Instance.Name.
+- string `className` - Instance.ClassName.
+- {[string]: any} `properties` - Functions as `instance[property] = value`.
+- {[string]: any} `attributes` - Functions as `instance:SetAttribute(attribute, value)`.
+- {string} `tags` - Functions as `CollectionService:AddTag(instance, tag)`
+- {Instance} `children` - The list of children.
+:::
+
+## Example
+A JSON Model describing a [Model](https://create.roblox.com/docs/reference/engine/classes/Model) containing a small green [Part](https://create.roblox.com/docs/reference/engine/classes/Part) and a [RemoteEvent](https://create.roblox.com/docs/reference/engine/classes/RemoteEvent) could be written as a file named `Money.Model.JSON` with:
+```json
+{
+    "name": "Money",
+	"className": "Model",
+	"children": [
+		{
+			"className": "Part",
+			"properties": {
+				"BrickColor": [ "BrickColor.new(\"Bright green\")" ],
+				"Size": [ "Vector3.new(1, 0.4, 2)" ]
+			}
+		},
+		{
+			"name": "CollectMoney",
+			"className": "RemoteEvent"
+		}
+	]
+}
+```

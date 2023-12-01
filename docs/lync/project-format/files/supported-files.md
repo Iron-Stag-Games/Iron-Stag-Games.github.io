@@ -8,7 +8,7 @@ All forms of Roblox content can be stored on the filesystem and synced.
 |-|-|-|
 | Folders | any directory | [Folder](https://create.roblox.com/docs/reference/engine/classes/Folder)
 | Scripts | `LUA`/`LUAU` | [LuaSourceContainer](https://create.roblox.com/docs/reference/engine/classes/LuaSourceContainer) * |
-| Models | `RBXM`/`RBXMX` | Varies |
+| Model Files | `RBXM`/`RBXMX` | Varies |
 | JSON Tables | `JSON` | [ModuleScript](https://create.roblox.com/docs/reference/engine/classes/ModuleScript) |
 | YAML Tables | `YAML` | [ModuleScript](https://create.roblox.com/docs/reference/engine/classes/ModuleScript) |
 | TOML Tables | `TOML` | [ModuleScript](https://create.roblox.com/docs/reference/engine/classes/ModuleScript) |
