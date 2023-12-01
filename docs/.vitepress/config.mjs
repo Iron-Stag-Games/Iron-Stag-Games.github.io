@@ -21,6 +21,10 @@ export default defineConfig({
 			{ text: 'Pronghorn', link: '/pronghorn/', activeMatch: '/pronghorn/' }
 		],
 
+		socialLinks: [
+			{ icon: 'github', link: 'https://github.com/Iron-Stag-Games/Lync' }
+		],
+
 		sidebar: {
 			'/lync/': [
 				{
