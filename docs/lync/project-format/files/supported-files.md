@@ -12,14 +12,11 @@ All forms of Roblox content can be stored on the filesystem and synced.
 | JSON Objects | `JSON` | [ModuleScript](https://create.roblox.com/docs/reference/engine/classes/ModuleScript) |
 | YAML Objects | `YAML` | [ModuleScript](https://create.roblox.com/docs/reference/engine/classes/ModuleScript) |
 | TOML Objects | `TOML` | [ModuleScript](https://create.roblox.com/docs/reference/engine/classes/ModuleScript) |
-| Excel Sheets | `XLSX`/`XLS` | [ModuleScript](https://create.roblox.com/docs/reference/engine/classes/ModuleScript) |
 | Text Document | `TXT` | [StringValue](https://create.roblox.com/docs/reference/engine/classes/StringValue) |
 | Localization Table | `CSV` | [LocalizationTable](https://create.roblox.com/docs/reference/engine/classes/LocalizationTable) |
 | Child Projects | `*.Project.JSON` | Varies |
 | JSON Models | `*.Model.JSON` | Varies |
-| Init Scripts (Anonymous) | `Init.LUA` / `LUAU` | [LuaSourceContainer](https://create.roblox.com/docs/reference/engine/classes/LuaSourceContainer) * |
-| Init Scripts (Named) | `*.Init.LUA` / `LUAU` | [LuaSourceContainer](https://create.roblox.com/docs/reference/engine/classes/LuaSourceContainer) * |
-| Meta Files | `*.Meta.JSON` / `YAML` / `TOML` | - |
+| Excel Tables | `*.Excel.JSON` | [ModuleScript](https://create.roblox.com/docs/reference/engine/classes/ModuleScript) |
 
 \* Can be [ModuleScript](https://create.roblox.com/docs/reference/engine/classes/ModuleScript), [Script](https://create.roblox.com/docs/reference/engine/classes/Script), or [LocalScript](https://create.roblox.com/docs/reference/engine/classes/LocalScript) depending on the script run context directive.
 
