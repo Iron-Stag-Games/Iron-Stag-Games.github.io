@@ -3,3 +3,5 @@
 Pronghorn is a Roblox framework with a direct approach to Module scripting that facilitates rapid development.
 
 No Controllers or Services, just Modules and Remotes.
+
+https://github.com/Iron-Stag-Games/Pronghorn

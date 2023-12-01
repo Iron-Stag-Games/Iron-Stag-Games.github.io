@@ -1,4 +1,4 @@
 # Automated Jobs
-::: danger Unfinished
+::: danger UNFINISHED
 This documentation is unfinished.
 :::

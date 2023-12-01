@@ -1,4 +1,4 @@
 # Automated Downloads
-::: danger Unfinished
+::: danger UNFINISHED
 This documentation is unfinished.
 :::

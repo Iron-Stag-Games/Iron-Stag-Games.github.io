@@ -22,7 +22,7 @@ export default defineConfig({
 		],
 
 		socialLinks: [
-			{ icon: 'github', link: 'https://github.com/Iron-Stag-Games/Lync' }
+			{ icon: 'github', link: 'https://github.com/Iron-Stag-Games' }
 		],
 
 		sidebar: {
