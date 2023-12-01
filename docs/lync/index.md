@@ -50,7 +50,7 @@ Lync uses Roblox plugin API to sync content. Similar file sync tools rely on par
 ::: tip DISCLAIMER
 Does not apply to `OPEN` and `BUILD` modes, which rely on [Lune](https://lune-org.github.io/docs) to build a place file.
 
-See [getting-started/installation](/lync/getting-started/installation#lune-dependency-for-building-to-file).
+See [getting-started/installation#lune-dependency](/lync/getting-started/installation#lune-dependency).
 :::
 
 ### Open Source

@@ -26,5 +26,5 @@ This feature is disabled by default.
 * To enable auto updates, run `LYNC CONFIG` and set `AutoUpdate` to `true`.
 * To change the update repository, run `LYNC CONFIG` and modify `AutoUpdate_Repo`.
 
-## Lune Dependency for Building to File
-[Lune](https://lune-org.github.io/docs/getting-started/1-installation) must be installed for building to file. You must specify the path to your Lune installation in the config file. To do this, run `LYNC CONFIG` and modify `Path_Lune`.
+## Lune Dependency
+[Lune](https://lune-org.github.io/docs/getting-started/1-installation) must be installed for building to file in `OPEN` and `BUILD` modes. You must specify the path to your Lune installation in the config file. To do this, run `LYNC CONFIG` and modify `Path_Lune`.

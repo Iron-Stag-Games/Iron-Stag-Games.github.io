@@ -1,7 +1,7 @@
-# Packages
 ::: danger UNFINISHED
 This documentation is unfinished.
 :::
+# Packages
 
 ::: tip
 Complex expressions in property fields may not be supported by other tools, so when releasing packages made with Lync, avoid using math, non constructor functions, and Enums.

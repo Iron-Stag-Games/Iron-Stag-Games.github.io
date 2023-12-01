@@ -71,8 +71,7 @@ export default defineConfig({
 							collapsed: false,
 							items: [
 								{ text: 'Supported Files', link: '/lync/project-format/files/supported-files' },
-								{ text: 'Script Directives', link: '/lync/project-format/files/script-directives' },
-								{ text: 'Init Scripts', link: '/lync/project-format/files/init-scripts' },
+								{ text: 'Scripts', link: '/lync/project-format/files/scripts' },
 								{ text: 'Meta Files', link: '/lync/project-format/files/meta-files' },
 								{ text: 'JSON Models', link: '/lync/project-format/files/json-models' },
 								{ text: 'Excel Tables', link: '/lync/project-format/files/excel-tables' }
