@@ -17,4 +17,4 @@ features:
     link: /pronghorn/
     linkText: Docs
 ---
-
+<br><br><br><center><a href="https://github.com/Iron-Stag-Games/Iron-Stag-Games.github.io/actions/workflows/deploy.yml"><img src="https://github.com/Iron-Stag-Games/Iron-Stag-Games.github.io/actions/workflows/deploy.yml/badge.svg"></a></center>
