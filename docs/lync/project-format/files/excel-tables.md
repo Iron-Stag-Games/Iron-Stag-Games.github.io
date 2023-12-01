@@ -2,3 +2,5 @@
 This documentation is unfinished.
 :::
 # Excel Tables
+
+## Syntax
