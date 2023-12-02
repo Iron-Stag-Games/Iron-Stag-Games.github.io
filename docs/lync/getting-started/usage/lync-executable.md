@@ -1,10 +1,12 @@
 # Lync Executable
 The Lync executable can start a live sync session, build to file, and fetch downloads.
+
+## Command Line Arguments
 ::: info Command Line Arguments
 - `LYNC HELP` - Displays the list of available arguments.
 - `LYNC CONFIG` - Opens the config file.
 - `LYNC SERVE project.json? REMOTE?` - Syncs the project.
-- `LYNC OPEN project.json? REMOTE?` - Build, syncs, and opens the project in Roblox Studio.
+- `LYNC OPEN project.json? REMOTE?` - Builds, syncs, and opens the project in Roblox Studio.
 - `LYNC BUILD project.json?` - Builds the project to file.
 - `LYNC FETCH project.json?` - Downloads the list of sources in the project file.
 
@@ -14,8 +16,8 @@ The Lync executable can start a live sync session, build to file, and fetch down
 `REMOTE?` - Connect to the project's `remoteAddress` instead of the localhost.
 :::
 
-::: warning
-`REMOTE` is unimplemented!
+::: danger UNAVAILABLE
+`REMOTE` is unimplemented.
 :::
 
 ## Live Sync
