@@ -17,7 +17,7 @@ The resulting table can be formatted in multiple ways.
 ## Examples
 
 ### Example 1
-Given an Excel Spreadsheet named `Economy.xlsx` containing the following in a sheet named `Pets`;
+Given an Excel Spreadsheet named `Economy.xlsx` containing the following cells in a sheet named `Pets`;
 | | A | B | C | D | E | F |
 |-|-|-|-|-|-|-|
 | 1 | PetID | Name | Area | Deluxe | Rarity | Power |
@@ -65,7 +65,7 @@ It's important to format tables in ways that are easy for you to use. When table
 :::
 
 ### Example 2
-Given an Excel Spreadsheet named `Players.xlsx` containing the following in a sheet named `Sheet1`;
+Given an Excel Spreadsheet named `Players.xlsx` containing the following cells in a sheet named `Sheet1`;
 | | C | D | E | F |
 |-|-|-|-|-|
 | 4 | Name | Foo | Bar | Baz |
