@@ -16,6 +16,8 @@ They are used in scenarios where it would be desirable to change the properties 
 :::
 
 ## Examples
+
+### Example 1
 The most common use case is changing the ClassName of a Folder.
 
 If your project has a Folder and you want to change its ClassName, you will create a `Init.Meta.JSON` inside it with:
@@ -25,6 +27,7 @@ If your project has a Folder and you want to change its ClassName, you will crea
 }
 ```
 
+### Example 2
 Another use case is changing the properties of a Model File (`RBXM`/`RBXMX`). Because the file is encoded, it cannot have its properties changed directly.
 
 If your project has `{example}.RBXM` (which contains a single [Part](https://create.roblox.com/docs/reference/engine/classes/Part)) and you want to make it a different color, you would create a `{example}.Meta.JSON` next to it with:

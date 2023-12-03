@@ -1,7 +1,7 @@
 # JSON Models
 JSON Models describe a simple set of Instances.
 
-Unlike Model Files (`RBXM`/`RBXMX`); their data is limited to that which can be assigned by a script (e.g., no [MeshPart](https://create.roblox.com/docs/reference/engine/classes/MeshPart) data.)
+Unlike Model Files (`RBXM`/`RBXMX`\;) their data is limited to that which can be assigned by a script (e.g., no [MeshPart](https://create.roblox.com/docs/reference/engine/classes/MeshPart) data.)
 
 ## Syntax
 ::: info File Name
