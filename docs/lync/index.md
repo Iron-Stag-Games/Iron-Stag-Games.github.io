@@ -1,10 +1,12 @@
 # What is Lync?
 
-Lync is a file sync tool for Roblox created to meet the needs of the dev community and to improve maintainability over similar tools.
+Lync is a file sync tool for Roblox created to fulfill a unique set of needs.
 
 https://github.com/Iron-Stag-Games/Lync
 
 ## Why Lync?
+
+Lync mimics the functionality of [Rojo](https://rojo.space/) with several major modifications. The two tools should be considered different flavors; Rojo being the default (and recommended!) tool, and Lync being the tool to use if it better suits your workflow.
 
 ### Version Control
 
