@@ -62,6 +62,7 @@ Lync is written in [Node.js](https://nodejs.org/) and compiled with [pkg](https:
 As is the case with most thirdparty Roblox tooling, its source is publicly available and can be modified if needed.
 
 ## Games Made With Lync
+
 ::: info Games Made With Lync
 - [Claw Machine Simulator - Fund For Games](https://www.roblox.com/games/8875360163)
 - [ExoTech - Iron Stag Games](https://www.roblox.com/games/7634484468)

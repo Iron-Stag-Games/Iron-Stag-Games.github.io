@@ -1,7 +1,9 @@
 # Lync Executable
+
 The Lync executable can start a live sync session, build to file, and fetch downloads.
 
 ## Command Line Arguments
+
 ::: info Command Line Arguments
 - `LYNC HELP` - Displays the list of available arguments.
 - `LYNC CONFIG` - Opens the config file.

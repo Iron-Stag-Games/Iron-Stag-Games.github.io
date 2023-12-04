@@ -1,9 +1,11 @@
 # Excel Tables
+
 Excel Tables specify a range of cells from an Excel Spreadsheet (`XLSX`/`XLS`) to translate into a [ModuleScript](https://create.roblox.com/docs/reference/engine/classes/ModuleScript).
 
 The resulting table can be formatted in multiple ways.
 
 ## Syntax
+
 ::: info File Name
 - `*.Excel.JSON`
 :::
@@ -17,6 +19,7 @@ The resulting table can be formatted in multiple ways.
 ## Examples
 
 ### Example 1
+
 Given an Excel Spreadsheet named `Economy.xlsx` containing the following cells in a sheet named `Pets`;
 | | A | B | C | D | E | F |
 |-|-|-|-|-|-|-|
@@ -65,6 +68,7 @@ It's important to format tables in ways that are easy for you to use. When table
 :::
 
 ### Example 2
+
 Given an Excel Spreadsheet named `Players.xlsx` containing the following cells in a sheet named `Sheet1`;
 | | C | D | E | F |
 |-|-|-|-|-|

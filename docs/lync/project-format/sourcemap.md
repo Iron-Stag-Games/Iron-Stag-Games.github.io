@@ -1,9 +1,11 @@
 # Sourcemap
+
 The Sourcemap is an automatically generated file that serves as a layout of the project for other tools to utilize.
 
 This file cannot be deleted and should be ignored unless you're a tool developer.
 
 ## Syntax
+
 ::: info File Name
 - `sourcemap.json`
 :::

@@ -1,4 +1,5 @@
 # Installation
+
 There are three ways to install Lync:
 ::: details Aftman
 ```bash
@@ -19,6 +20,7 @@ In Windows, it's recommended that you modify your `Path` system environment vari
 The Roblox Studio plugin installs automatically each time a live sync session is started.
 
 ## Auto Updates
+
 Lync has the ability to automatically download and install new releases. Your configuration is preserved when updating.
 
 This feature is disabled by default.
@@ -27,4 +29,5 @@ This feature is disabled by default.
 * To change the update repository, run `LYNC CONFIG` and modify `AutoUpdate_Repo`.
 
 ## Lune Dependency
+
 [Lune](https://lune-org.github.io/docs/getting-started/1-installation) must be installed for building to file in `OPEN` and `BUILD` modes. You must specify the path to your Lune installation in the config file. To do this, run `LYNC CONFIG` and modify `Path_Lune`.

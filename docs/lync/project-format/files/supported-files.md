@@ -1,4 +1,5 @@
 # Supported Files
+
 Different file types are synced into the place in different forms.
 
 All forms of Roblox content can be stored on the filesystem and synced.
