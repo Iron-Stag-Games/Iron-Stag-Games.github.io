@@ -45,10 +45,10 @@ Lync offers additional built-in tools for power users to automate aspects of the
 
 The live sync feature is designed to keep functioning after Roblox updates.
 
-Lync uses Roblox plugin API to sync content. Similar file sync tools rely on parsing the Roblox binary format, and they stop working whenever a new Instance or Enum gets added to Roblox.
+Lync uses Roblox plugin API to sync content. Similar file sync tools rely on parsing the Roblox binary format, which has historically required developer intervention when Roblox releases new content.
 
 ::: tip DISCLAIMER
-Does not apply to `OPEN` and `BUILD` modes, which rely on [Lune](https://lune-org.github.io/docs) to build a place file.
+Does not apply to `OPEN` and `BUILD` modes, which currently rely on [Lune](https://lune-org.github.io/docs) to build a place file.
 
 See [getting-started/installation#lune-dependency](/lync/getting-started/installation#lune-dependency).
 :::
