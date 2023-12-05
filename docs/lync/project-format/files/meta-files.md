@@ -11,10 +11,14 @@ They are used in scenarios where it would be desirable to change the properties 
 - `Init.Meta.JSON` - For directories.
 :::
 ::: info Keys
-- string `className` - Instance.ClassName. Usable only with directories.
-- {[string]: any} `properties` - Functions as `instance[property] = value`.
-- {[string]: any} `attributes` - Functions as `instance:SetAttribute(attribute, value)`.
-- {string} `tags` - Functions as `CollectionService:AddTag(instance, tag)`
+- `className`: string *(Optional)*
+	- Usable only with directories.
+- `properties`: {[string]: any} *(Optional)*
+	- Functions as `instance[property] = value`.
+- `attributes`: {[string]: any} *(Optional)*
+	- Functions as `instance:SetAttribute(attribute, value)`.
+- `tags`: {string} *(Optional)*
+	- Functions as `CollectionService:AddTag(instance, tag)`
 :::
 
 ## Examples

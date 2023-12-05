@@ -14,7 +14,6 @@ The Lync executable can start a live sync session, build to file, and fetch down
 
 `project.json?` - The project file to read from and serve.
 
-
 `REMOTE?` - Connect to the project's `remoteAddress` instead of the localhost.
 :::
 
@@ -40,4 +39,4 @@ This mode works without having Roblox Studio installed and without an internet c
 
 The `FETCH` mode downloads the list of sources in the project file.
 
-See [project-format/project-file/automated-downloads](/lync/project-format/project-file/automated-downloads).
+See [project-format/project/automated-downloads](/lync/project-format/project/automated-downloads).

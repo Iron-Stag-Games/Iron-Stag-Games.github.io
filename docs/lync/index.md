@@ -39,9 +39,9 @@ See [project-format/files/supported-files](/lync/project-format/files/supported-
 
 Lync offers additional built-in tools for power users to automate aspects of the project.
 
-- [**Packages**](/lync/project-format/project-file/packages) - Download GitHub repositories and insert their contents into the project.
-- [**Automated Downloads**](/lync/project-format/project-file/automated-downloads) - Download a list of sources into the project.
-- [**Automated Jobs**](/lync/project-format/project-file/automated-jobs) - Run scripts based on file system event criteria.
+- [**Packages**](/lync/project-format/project/packages) - Download GitHub repositories and insert their contents into the project.
+- [**Automated Downloads**](/lync/project-format/project/automated-downloads) - Download a list of sources into the project.
+- [**Automated Jobs**](/lync/project-format/project/automated-jobs) - Run scripts based on file system event criteria.
 
 ### Future Proofed
 

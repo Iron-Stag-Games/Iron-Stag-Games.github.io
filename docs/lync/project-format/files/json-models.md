@@ -10,12 +10,15 @@ Unlike Model Files (`RBXM`/`RBXMX`\;) their data is limited to that which can be
 - `*.Model.JSON`
 :::
 ::: info Keys
-- string `name` - Instance.Name.
-- string `className` - Instance.ClassName.
-- {[string]: any} `properties` - Functions as `instance[property] = value`.
-- {[string]: any} `attributes` - Functions as `instance:SetAttribute(attribute, value)`.
-- {string} `tags` - Functions as `CollectionService:AddTag(instance, tag)`
-- {Instance} `children` - The list of children.
+- `name`: string *(Optional)*
+- `className`: string *(Optional)*
+- `properties`: {[string]: any} *(Optional)*
+	- Functions as `instance[property] = value`.
+- `attributes`: {[string]: any} *(Optional)*
+	- Functions as `instance:SetAttribute(attribute, value)`.
+- `tags`: {string} *(Optional)*
+	- Functions as `CollectionService:AddTag(instance, tag)`
+- `children`: {Instance} *(Optional)*
 :::
 
 ## Example

@@ -15,7 +15,7 @@ All forms of Roblox content can be stored on the filesystem and synced.
 | TOML Tables | `TOML` | [ModuleScript](https://create.roblox.com/docs/reference/engine/classes/ModuleScript) |
 | Plain Text | `TXT` | [StringValue](https://create.roblox.com/docs/reference/engine/classes/StringValue) |
 | Localization Table | `CSV` | [LocalizationTable](https://create.roblox.com/docs/reference/engine/classes/LocalizationTable) |
-| [Child Projects](/lync/project-format/project-file/project-file-syntax) | `*.Project.JSON` | Varies |
+| [Child Projects](/lync/project-format/project/project-file) | `*.Project.JSON` | Varies |
 | [Meta Files](/lync/project-format/files/meta-files) | `*.Meta.JSON` | Varies |
 | [JSON Models](/lync/project-format/files/json-models) | `*.Model.JSON` | Varies |
 | [Excel Tables](/lync/project-format/files/excel-tables) | `*.Excel.JSON` | [ModuleScript](https://create.roblox.com/docs/reference/engine/classes/ModuleScript) |

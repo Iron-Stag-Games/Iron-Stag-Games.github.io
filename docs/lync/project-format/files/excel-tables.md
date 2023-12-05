@@ -10,10 +10,14 @@ The resulting table can be formatted in multiple ways.
 - `*.Excel.JSON`
 :::
 ::: info Keys
-- string `spreadsheet` - A relative path to the associated Excel Spreadsheet.
-- string `ref` - The 2D range with which to pull data from. Formatted as `sheetName!rowColumn:rowColumn`, e.g. `Sheet1!A1:C3`. It can also be a [named range](https://support.microsoft.com/en-us/office/create-a-named-range-from-selected-cells-in-a-worksheet-fd8905ed-1130-4cca-9bb0-ad02b7e594fd), which allows the range to be modified from inside the Excel worksheet.
-- boolean `hasHeader` - Whether or not the first row should be used as keys for nesting elements in the translated Excel Table.
-- number `numColumnKeys` - Defines by how many columns each entry should be nested.
+- `spreadsheet`: string
+	- A relative path to the associated Excel Spreadsheet.
+- `ref`: string
+	- The 2D range with which to pull data from. Formatted as `sheetName!rowColumn:rowColumn`, e.g. `Sheet1!A1:C3`. It can also be a [named range](https://support.microsoft.com/en-us/office/create-a-named-range-from-selected-cells-in-a-worksheet-fd8905ed-1130-4cca-9bb0-ad02b7e594fd), which allows the range to be modified from inside the Excel worksheet.
+- `hasHeader`: boolean
+	- Whether or not the first row should be used as keys for nesting elements in the translated Excel Table.
+- `numColumnKeys`: number
+	- Defines by how many columns each entry should be nested.
 :::
 
 ## Examples

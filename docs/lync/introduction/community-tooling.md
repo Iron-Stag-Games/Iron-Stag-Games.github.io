@@ -13,7 +13,7 @@ This list is by no means complete.
 ::: tip
 Lync can download packages and keep them up to date.
 
-See [project-format/project-file/packages](/lync/project-format/project-file/packages).
+See [project-format/project/packages](/lync/project-format/project/packages).
 :::
 
 ::: info Language Servers and Linters
