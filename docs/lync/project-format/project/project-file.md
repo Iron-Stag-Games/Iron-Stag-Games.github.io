@@ -1,6 +1,6 @@
 # Project File
 
-Lync projects define the Instance tree inside Roblox, as well as configuring the behavior for building to file, sourcemaps, [**Automated Downloads**](/lync/project-format/project/automated-downloads), [**Automated Jobs**](/lync/project-format/project/automated-jobs), and more.
+Lync projects define the Instance tree inside Roblox, as well as configuring the behavior for building to file, sourcemaps, [Automated Downloads](/lync/project-format/project/automated-downloads), [Automated Jobs](/lync/project-format/project/automated-jobs), and more.
 
 ## Syntax
 
