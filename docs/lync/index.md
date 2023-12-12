@@ -6,6 +6,12 @@ It mimics the functionality of [Rojo](https://rojo.space/) with several major mo
 
 [Submit an Issue or Suggestion](https://github.com/Iron-Stag-Games/Lync/issues)
 
+::: warning ALPHA
+Lync is currently in Alpha. Some features will be unavailable until Beta.
+
+Any unavailable features have been documented as such.
+:::
+
 ## Why Lync?
 
 ### Version Control
@@ -51,6 +57,8 @@ Lync uses Roblox plugin API to sync content. Similar file sync tools rely on par
 
 ::: tip DISCLAIMER
 Does not apply to `OPEN` and `BUILD` modes, which currently rely on [Lune](https://lune-org.github.io/docs) to build a place file.
+
+The Lune dependency will be dropped when Roblox releases their protobuf file format.
 
 See [getting-started/installation#lune-dependency](/lync/getting-started/installation#lune-dependency).
 :::
