@@ -20,8 +20,6 @@ Lync projects define the Instance tree inside Roblox, as well as configuring the
 	- The path to save the finished build file when using `OPEN` and `BUILD` modes.
 - `port`: number
 	- The network port to serve the project on when using `SERVE` and `OPEN` modes.
-- `remoteAddress`: string *(Optional)*
-	- The IP address or hostname to connect to instead of the localhost.
 - `servePlaceIds`: {number} *(Optional)*
 	- An array of place IDs to serve. Lync will refuse to connect if the open place ID isn't found in the array.
 - `globIgnorePaths`: {string} *(Optional)*
@@ -35,9 +33,6 @@ Lync projects define the Instance tree inside Roblox, as well as configuring the
 - `tree`: Object
 	- The root Instance.
 :::
-::: danger UNAVAILABLE
-`remoteAddress` is unimplemented.
-:::
 
 ### Example
 
@@ -47,7 +42,6 @@ Lync projects define the Instance tree inside Roblox, as well as configuring the
 	"base": "Base.rbxl",
 	"build": "Build.rbxl",
 	"port": 34873,
-	"remoteAddress": "localhost",
 	"servePlaceIds": [ 1818 ],
 	"globIgnorePaths": [ "ignoredDirectory/**" ],
 	"sourcemapEnabled": {
