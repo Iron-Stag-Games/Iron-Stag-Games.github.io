@@ -24,3 +24,6 @@ All forms of Roblox content can be stored on the filesystem and synced.
 
 See [project-format/files/scripts#script-directives](/lync/project-format/files/scripts#script-directives).
 :::
+::: danger UNAVAILABLE
+Localization Tables are unimplemented in the `BUILD` mode.
+:::

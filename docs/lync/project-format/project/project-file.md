@@ -11,7 +11,7 @@ Lync projects define the Instance tree inside Roblox, as well as configuring the
 	- For non-default projects.
 :::
 ::: info Keys
-- `name`: string
+- `name`: string *(Optional)*
 	- The name of the project for informational purposes.
 - `base`: string *(Optional)*
 	- The path to the file to build in when using `OPEN` and `BUILD` modes.
@@ -20,6 +20,8 @@ Lync projects define the Instance tree inside Roblox, as well as configuring the
 	- The path to save the finished build file when using `OPEN` and `BUILD` modes.
 - `port`: number
 	- The network port to serve the project on when using `SERVE` and `OPEN` modes.
+- `collisionGroups`: string *(Optional)*
+	- The path to a file that stores collision group data.
 - `servePlaceIds`: {number} *(Optional)*
 	- An array of place IDs to serve. Lync will refuse to connect if the open place ID isn't found in the array.
 - `globIgnorePaths`: {string} *(Optional)*
@@ -33,6 +35,9 @@ Lync projects define the Instance tree inside Roblox, as well as configuring the
 - `tree`: Object
 	- The root Instance.
 :::
+::: danger UNAVAILABLE
+The `collisionGroups` key is unimplemented in the `BUILD` mode.
+:::
 
 ### Example
 
@@ -42,6 +47,7 @@ Lync projects define the Instance tree inside Roblox, as well as configuring the
 	"base": "Base.rbxl",
 	"build": "Build.rbxl",
 	"port": 34873,
+	"collisionGroups": "collisionGroups.json",
 	"servePlaceIds": [ 1818 ],
 	"globIgnorePaths": [ "ignoredDirectory/**" ],
 	"sourcemapEnabled": {
