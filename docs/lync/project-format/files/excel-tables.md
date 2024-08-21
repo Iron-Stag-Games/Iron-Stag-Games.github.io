@@ -18,6 +18,8 @@ The resulting table can be formatted in multiple ways.
 	- Whether or not the first row should be used as keys for nesting elements in the translated Excel Table.
 - `numColumnKeys`: number
 	- Defines by how many columns each entry should be nested.
+- `lastColumnKeyUsesIndices`: boolean
+	- Whether or not the last nesting defined by `numColumnKeys` should be treated as an array.
 :::
 
 ## Examples
@@ -38,7 +40,8 @@ Given an Excel Spreadsheet named `Economy.xlsx` containing the following cells i
 	"spreadsheet": "Economy.xlsx",
 	"ref": "Pets!A1:F4",
 	"hasHeader": true,
-	"numColumnKeys": 1
+	"numColumnKeys": 1,
+	"lastColumnKeyUsesIndices": false
 }
 ```
 ... the following table will appear in Roblox as a [ModuleScript](https://create.roblox.com/docs/reference/engine/classes/ModuleScript) named `Pets`:
@@ -87,7 +90,8 @@ Given an Excel Spreadsheet named `Players.xlsx` containing the following cells i
     "spreadsheet": "Players.xlsx",
     "ref": "Sheet1!C4:F7",
     "hasHeader": true,
-    "numColumnKeys": 0
+    "numColumnKeys": 0,
+	"lastColumnKeyUsesIndices": false
 }
 ```
 ... the following table will appear in Roblox as a [ModuleScript](https://create.roblox.com/docs/reference/engine/classes/ModuleScript) named `Leaderboard`:
