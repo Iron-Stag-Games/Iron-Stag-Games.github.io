@@ -5,7 +5,8 @@ Although most (if not all) were originally designed with Rojo in mind, the follo
 This list is by no means complete.
 
 ::: info Toolchain and Package Managers
-- [Aftman](https://github.com/LPGhatguy/aftman)
+- [Rokit](https://github.com/rojo-rbx/rokit)
+- [~~Aftman~~](https://github.com/LPGhatguy/aftman) *(Abandoned)*
 - [~~Foreman~~](https://github.com/Roblox/foreman) *(Abandoned)*
 - [Wally](https://wally.run/)
 :::
