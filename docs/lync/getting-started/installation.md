@@ -1,9 +1,9 @@
 # Installation
 
 There are three ways to install Lync:
-::: details Aftman
+::: details Rokit
 ```bash
-aftman add --global Iron-Stag-Games/Lync
+rokit add --global Iron-Stag-Games/Lync
 ```
 :::
 ::: details Manually
