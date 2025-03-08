@@ -72,7 +72,7 @@ As is the case with most thirdparty Roblox tooling, its source is publicly avail
 ## Games Made With Lync
 
 ::: info Games Made With Lync
-- [Claw Machine Simulator - RB Battles Games Games](https://www.roblox.com/games/6891812658)
+- [Claw Machine Simulator - RB Battles Games](https://www.roblox.com/games/6891812658)
 - [ExoTech - Iron Stag Games](https://www.roblox.com/games/7634484468)
 - [RB Battles - RB Battles Games](https://www.roblox.com/games/5036207802)
 - [Traitor Town - Traitor Town](https://www.roblox.com/games/255236425)
