@@ -13,17 +13,14 @@ Lync projects define the Instance tree inside Roblox, as well as configuring the
 ::: info Keys
 - `name`: string *(Optional)*
 	- The name of the project for informational purposes.
-- `base`: string *(Optional)*
-	- The path to the file to build in when using `OPEN` and `BUILD` modes.
-	- When omitted, Lync builds in a new file.
-- `build`: string
-	- The path to save the finished build file when using `OPEN` and `BUILD` modes.
 - `port`: number
 	- The network port to serve the project on when using `SERVE` and `OPEN` modes.
+- `experienceId`: number
+	- The experience ID to use in `OPEN` mode.
+- `placeId`: number
+	- The place ID to use in `OPEN` mode.
 - `collisionGroups`: string *(Optional)*
 	- The path to a file that stores collision group data.
-- `servePlaceIds`: {number} *(Optional)*
-	- An array of place IDs to serve. Lync will refuse to connect if the open place ID isn't found in the array.
 - `globIgnorePaths`: {string} *(Optional)*
 	- An array of glob paths to ignore when mapping the project.
 - `sourcemapEnabled`: {RBXM: boolean, RBXMX: boolean} *(Optional)*
@@ -35,20 +32,16 @@ Lync projects define the Instance tree inside Roblox, as well as configuring the
 - `tree`: Object
 	- The root Instance.
 :::
-::: danger UNAVAILABLE
-The `collisionGroups` key is unimplemented in the `BUILD` mode.
-:::
 
 ### Example
 
 ```json
 {
 	"name": "Example Project",
-	"base": "Base.rbxl",
-	"build": "Build.rbxl",
 	"port": 34873,
+	"experienceId": 0,
+	"placeId": 0,
 	"collisionGroups": "collisionGroups.json",
-	"servePlaceIds": [ 1818 ],
 	"globIgnorePaths": [ "ignoredDirectory/**" ],
 	"sourcemapEnabled": {
 		"RBXM": true,
@@ -68,6 +61,9 @@ The `collisionGroups` key is unimplemented in the `BUILD` mode.
 ::: info Keys
 - `$className`: string *(Optional)*
 	- Has no effect when `$path` is specified.
+- `$clearOnSync`: boolean *(Optional)*
+	- When `true`, the associated Instance and its descendants will be destroyed in Studio when performing sync operations.
+	- Useful for clearing unmapped content when modifications are made outside your active live sync session.
 - `$path`: (string | Object) *(Optional)*
 	- A path to a file or directory that overrides the Instance Definition.
 	- Use `"$path": { "optional": "..." }` when the file or directory could possibly be non-existant.
@@ -78,9 +74,6 @@ The `collisionGroups` key is unimplemented in the `BUILD` mode.
 	- Functions as `instance:SetAttribute(attribute, value)`.
 - `$tags`: {string} *(Optional)*
 	- Functions as `CollectionService:AddTag(instance, tag)`.
-- `$clearOnSync`: boolean *(Optional)*
-	- When `true`, the associated Instance and its descendants will be destroyed in Studio when performing sync operations.
-	- Useful for clearing unmapped content when modifications are made outside your active live sync session.
 :::
 
 ### Values

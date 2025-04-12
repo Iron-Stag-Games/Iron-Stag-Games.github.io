@@ -19,11 +19,15 @@ The Lync executable can start a live sync session, build to file, and fetch down
 
 The `SERVE` and `OPEN` modes start live sync.
 
-`OPEN` functions the same as `SERVE`, except it also builds the project and opens it in Roblox Studio.
+`OPEN` functions the same as `SERVE`, except it also opens the project in Roblox Studio.
 
 Connect to the session through the Roblox Studio plugin.
 
 ## Build to File
+
+::: danger UNAVAILABLE
+The `BUILD` mode is currently unavailable.
+:::
 
 The `BUILD` mode builds the project to a place (or model) file.
 
