@@ -18,7 +18,7 @@ features:
     linkText: Docs
   - title: Traitor Town
     details: It's all about INNOCENT SPIES versus TRAITOR SPIES. Who can you trust, and who is out to fill you with bullets?
-    link: /traitor-town/
+    link: /traitor-town/content/gamemodes/Traitor Town/how-to-play
     linkText: Docs
 ---
 <br><br><br><center><a href="https://github.com/Iron-Stag-Games/Iron-Stag-Games.github.io/actions/workflows/deploy.yml"><img src="https://github.com/Iron-Stag-Games/Iron-Stag-Games.github.io/actions/workflows/deploy.yml/badge.svg"></a></center>

@@ -19,7 +19,7 @@ export default defineConfig({
 		nav: [
 			{ text: 'Lync', link: '/lync/', activeMatch: '/lync/' },
 			{ text: 'Pronghorn', link: '/pronghorn/', activeMatch: '/pronghorn/' },
-			{ text: 'Traitor Town', link: '/traitor-town/', activeMatch: '/traitor-town/' }
+			{ text: 'Traitor Town', link: '/traitor-town/content/gamemodes/Traitor Town/how-to-play', activeMatch: '/traitor-town/' }
 		],
 
 		socialLinks: [
@@ -93,16 +93,29 @@ export default defineConfig({
 			],
 			'/traitor-town/': [
 				{
-					text: 'Introduction',
-					collapsed: false,
-					items: [
-						{ text: 'Hello World', link: '/traitor-town/' }
-					]
-				},
-				{
 					text: 'Content',
 					collapsed: false,
 					items: [
+						{
+							text: 'Gamemodes',
+							collapsed: false,
+							items: [
+								{
+									text: 'Traitor Town',
+									collapsed: false,
+									items: [
+										{ text: 'How to Play', link: '/traitor-town/content/gamemodes/Traitor Town/how-to-play' },
+										{ text: 'Karma', link: '/traitor-town/content/gamemodes/Traitor Town/karma' },
+										{ text: 'Traitor Equipment', link: '/traitor-town/content/gamemodes/Traitor Town/traitor-equipment' },
+										{ text: 'Detective Equipment', link: '/traitor-town/content/gamemodes/Traitor Town/detective-equipment' }
+									]
+								},
+								{ text: 'Deathmatch', link: '/traitor-town/content/gamemodes/Deathmatch' },
+								{ text: 'Juggernaut', link: '/traitor-town/content/gamemodes/Juggernaut' },
+								{ text: 'Death Run', link: '/traitor-town/content/gamemodes/Death Run' },
+								{ text: 'Surf', link: '/traitor-town/content/gamemodes/Surf' }
+							]
+						},
 						{
 							text: 'Maps',
 							collapsed: true,
@@ -145,32 +158,116 @@ export default defineConfig({
 							text: 'Items',
 							collapsed: true,
 							items: [
-								{ text: 'Item', link: '/traitor-town/content/items/Item' }
+								{
+									text: 'Slot 1',
+									collapsed: false,
+									items: [
+										{ text: 'Crowbar', link: '/traitor-town/content/items/Crowbar' }
+									]
+								},
+								{
+									text: 'Slot 2',
+									collapsed: false,
+									items: [
+										{ text: 'Desert Eagle', link: '/traitor-town/content/items/Desert Eagle' },
+										{ text: 'Five-seveN', link: '/traitor-town/content/items/Five-seveN' },
+										{ text: 'G18', link: '/traitor-town/content/items/G18' }
+									]
+								},
+								{
+									text: 'Slot 3',
+									collapsed: false,
+									items: [
+										{ text: 'M1014', link: '/traitor-town/content/items/M1014' },
+										{ text: 'M11', link: '/traitor-town/content/items/M11' },
+										{ text: 'G18', link: '/traitor-town/content/items/G18' },
+										{ text: 'M249 SAW', link: '/traitor-town/content/items/M249 SAW' },
+										{ text: 'M4A1 Carbine', link: '/traitor-town/content/items/M4A1 Carbine' },
+										{ text: 'Scout', link: '/traitor-town/content/items/Scout' }
+									]
+								},
+								{
+									text: 'Slot 4',
+									collapsed: false,
+									items: [
+										{ text: 'Discombobulator', link: '/traitor-town/content/items/Discombobulator' },
+										{ text: 'Incendiary Grenade', link: '/traitor-town/content/items/Incendiary Grenade' },
+										{ text: 'Smoke Grenade', link: '/traitor-town/content/items/Smoke Grenade' }
+									]
+								},
+								{
+									text: 'Slot 5',
+									collapsed: false,
+									items: [
+										{ text: 'Magneto-Stick', link: '/traitor-town/content/items/Magneto-Stick' }
+									]
+								},
+								{
+									text: 'Slot 6',
+									collapsed: false,
+									items: [
+										{ text: 'Holstered', link: '/traitor-town/content/items/Holstered' }
+									]
+								},
+								{
+									text: 'Slot 7',
+									collapsed: false,
+									items: [
+									]
+								},
+								{
+									text: 'Slot 8',
+									collapsed: false,
+									items: [
+									]
+								},
+								{
+									text: 'Slot 9',
+									collapsed: false,
+									items: [
+										{ text: 'DNA Scanner', link: '/traitor-town/content/items/DNA Scanner' }
+									]
+								},
+								{
+									text: 'Slot 0',
+									collapsed: false,
+									items: [
+										{ text: 'Tool Gun', link: '/traitor-town/content/items/Tool Gun' }
+									]
+								},
+								{
+									text: 'Slotless',
+									collapsed: false,
+									items: [
+									]
+								}
 							]
-						},
-						{
-							text: 'Gamemodes',
-							collapsed: true,
-							items: [
-								{ text: 'Traitor Town', link: '/traitor-town/content/gamemodes/Traitor Town' },
-								{ text: 'Death Run', link: '/traitor-town/content/gamemodes/Death Run' },
-								{ text: 'Deathmatch', link: '/traitor-town/content/gamemodes/Deathmatch' },
-								{ text: 'Juggernaut', link: '/traitor-town/content/gamemodes/Juggernaut' },
-								{ text: 'Surf', link: '/traitor-town/content/gamemodes/Surf' }
-							]
-						},
+						}
 					]
 				},
 				{
 					text: 'Workshop',
 					collapsed: false,
 					items: [
+						{ text: 'Setup', link: '/traitor-town/workshop/setup' },
+						{ text: 'Building', link: '/traitor-town/workshop/building' },
 						{ text: 'Publishing and Testing', link: '/traitor-town/workshop/publishing-and-testing' },
 						{
 							text: 'Script API',
 							collapsed: false,
 							items: [
-								{ text: '?', link: '/traitor-town/workshop/script-api/?' }
+								{
+									text: 'Server',
+									collapsed: false,
+									items: [
+									]
+								},
+								{
+									text: 'Client',
+									collapsed: false,
+									items: [
+									]
+								}
 							]
 						}
 					]
