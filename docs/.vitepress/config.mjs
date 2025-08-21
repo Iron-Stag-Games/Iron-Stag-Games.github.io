@@ -106,10 +106,30 @@ export default defineConfig({
 								{ text: 'Detective Equipment', link: '/traitor-town/gamemodes/Traitor Town/detective-equipment' }
 							]
 						},
-						{ text: 'Deathmatch', link: '/traitor-town/gamemodes/Deathmatch' },
-						{ text: 'Juggernaut', link: '/traitor-town/gamemodes/Juggernaut' },
-						{ text: 'Death Run', link: '/traitor-town/gamemodes/Death Run' },
-						{ text: 'Surf', link: '/traitor-town/gamemodes/Surf' }
+						{
+							text: 'Deathmatch',
+							collapsed: true,
+							items: [
+							]
+						},
+						{
+							text: 'Juggernaut',
+							collapsed: true,
+							items: [
+							]
+						},
+						{
+							text: 'Death Run',
+							collapsed: true,
+							items: [
+							]
+						},
+						{
+							text: 'Surf',
+							collapsed: true,
+							items: [
+							]
+						}
 					]
 				},
 				{
