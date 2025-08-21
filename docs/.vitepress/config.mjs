@@ -94,11 +94,11 @@ export default defineConfig({
 			'/traitor-town/': [
 				{
 					text: 'Gamemodes',
-					collapsed: false,
+					collapsed: true,
 					items: [
 						{
 							text: 'Traitor Town',
-							collapsed: false,
+							collapsed: true,
 							items: [
 								{ text: 'How to Play', link: '/traitor-town/' },
 								{ text: 'Karma', link: '/traitor-town/gamemodes/Traitor Town/karma' },
