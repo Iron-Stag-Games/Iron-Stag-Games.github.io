@@ -98,6 +98,82 @@ export default defineConfig({
 					items: [
 						{ text: 'Hello World', link: '/traitor-town/' }
 					]
+				},
+				{
+					text: 'Content',
+					collapsed: false,
+					items: [
+						{
+							text: 'Maps',
+							collapsed: true,
+							items: [
+								{ text: '67thway', link: '/traitor-town/content/maps/67thway' },
+								{ text: 'Anubis', link: '/traitor-town/content/maps/Anubis' },
+								{ text: 'Archipelago', link: '/traitor-town/content/maps/Archipelago' },
+								{ text: 'Asylum', link: '/traitor-town/content/maps/Asylum' },
+								{ text: 'Clue', link: '/traitor-town/content/maps/Clue' },
+								{ text: 'Compound', link: '/traitor-town/content/maps/Compound' },
+								{ text: 'Crossisle PD', link: '/traitor-town/content/maps/Crossisle PD' },
+								{ text: 'Death Run Test', link: '/traitor-town/content/maps/Death Run Test' },
+								{ text: 'Detective HQ', link: '/traitor-town/content/maps/Detective HQ' },
+								{ text: 'Domain Mall', link: '/traitor-town/content/maps/Domain Mall' },
+								{ text: 'Fabrik', link: '/traitor-town/content/maps/Fabrik' },
+								{ text: 'Harappa', link: '/traitor-town/content/maps/Harappa' },
+								{ text: 'Hellscape', link: '/traitor-town/content/maps/Hellscape' },
+								{ text: 'International', link: '/traitor-town/content/maps/International' },
+								{ text: 'Isle', link: '/traitor-town/content/maps/Isle' },
+								{ text: 'Jailbreak', link: '/traitor-town/content/maps/Jailbreak' },
+								{ text: 'Lost Temple', link: '/traitor-town/content/maps/Lost Temple' },
+								{ text: 'Mesa Monorail', link: '/traitor-town/content/maps/Mesa Monorail' },
+								{ text: 'Militia', link: '/traitor-town/content/maps/Militia' },
+								{ text: 'Monsoon', link: '/traitor-town/content/maps/Monsoon' },
+								{ text: 'Polar', link: '/traitor-town/content/maps/Polar' },
+								{ text: 'Rooftops', link: '/traitor-town/content/maps/Rooftops' },
+								{ text: 'Santa Fe', link: '/traitor-town/content/maps/Santa Fe' },
+								{ text: 'Shipment', link: '/traitor-town/content/maps/Shipment' },
+								{ text: 'Skeld', link: '/traitor-town/content/maps/Skeld' },
+								{ text: 'Skylands', link: '/traitor-town/content/maps/Skylands' },
+								{ text: 'Snowfall Complex', link: '/traitor-town/content/maps/Snowfall Complex' },
+								{ text: 'Vista Overpass', link: '/traitor-town/content/maps/Vista Overpass' },
+								{ text: 'Warehouse', link: '/traitor-town/content/maps/Warehouse' },
+								{ text: 'Wastelands', link: '/traitor-town/content/maps/Wastelands' },
+								{ text: 'Water Hazard', link: '/traitor-town/content/maps/Water Hazard' },
+								{ text: 'Winterhaus', link: '/traitor-town/content/maps/Winterhaus' }
+							]
+						},
+						{
+							text: 'Items',
+							collapsed: true,
+							items: [
+								{ text: 'Item', link: '/traitor-town/content/items/Item' }
+							]
+						},
+						{
+							text: 'Gamemodes',
+							collapsed: true,
+							items: [
+								{ text: 'Traitor Town', link: '/traitor-town/content/gamemodes/Traitor Town' },
+								{ text: 'Death Run', link: '/traitor-town/content/gamemodes/Death Run' },
+								{ text: 'Deathmatch', link: '/traitor-town/content/gamemodes/Deathmatch' },
+								{ text: 'Juggernaut', link: '/traitor-town/content/gamemodes/Juggernaut' },
+								{ text: 'Surf', link: '/traitor-town/content/gamemodes/Surf' }
+							]
+						},
+					]
+				},
+				{
+					text: 'Workshop',
+					collapsed: false,
+					items: [
+						{ text: 'Publishing and Testing', link: '/traitor-town/workshop/publishing-and-testing' },
+						{
+							text: 'Script API',
+							collapsed: false,
+							items: [
+								{ text: '?', link: '/traitor-town/workshop/script-api/?' }
+							]
+						}
+					]
 				}
 			]
 		},
