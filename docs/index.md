@@ -16,5 +16,9 @@ features:
     details: Pronghorn is a Roblox framework with a direct approach to Module scripting that facilitates rapid development.
     link: /pronghorn/
     linkText: Docs
+  - title: Traitor Town
+    details: All information about Traitor Town including Maps, Items, and Gamemodes.
+    link: /traitor-town/
+    linkText: Wiki
 ---
 <br><br><br><center><a href="https://github.com/Iron-Stag-Games/Iron-Stag-Games.github.io/actions/workflows/deploy.yml"><img src="https://github.com/Iron-Stag-Games/Iron-Stag-Games.github.io/actions/workflows/deploy.yml/badge.svg"></a></center>

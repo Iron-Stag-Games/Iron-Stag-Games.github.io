@@ -18,7 +18,8 @@ export default defineConfig({
 		// https://vitepress.dev/reference/default-theme-config
 		nav: [
 			{ text: 'Lync', link: '/lync/', activeMatch: '/lync/' },
-			{ text: 'Pronghorn', link: '/pronghorn/', activeMatch: '/pronghorn/' }
+			{ text: 'Pronghorn', link: '/pronghorn/', activeMatch: '/pronghorn/' },
+			{ text: 'Traitor Town', link: '/traitor-town/', activeMatch: '/traitor-town/' }
 		],
 
 		socialLinks: [
@@ -89,6 +90,15 @@ export default defineConfig({
 						{ text: 'What is Pronghorn?', link: '/pronghorn/' }
 					]
 				}
+			],
+			'/traitor-town/': [
+				{
+					text: 'Introduction',
+					collapsed: false,
+					items: [
+						{ text: 'Hello World', link: '/traitor-town/' }
+					]
+				}
 			]
 		},
 
@@ -103,7 +113,7 @@ export default defineConfig({
 
 		footer: {
 			message: 'Lync and Pronghorn released under LGPL 2.1',
-			copyright: 'Copyright © 2023 Iron Stag Games'
+			copyright: 'Copyright © Iron Stag Games'
 		},
 	}
 })
