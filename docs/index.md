@@ -17,7 +17,7 @@ features:
     link: /pronghorn/
     linkText: Docs
   - title: Traitor Town
-    details: All information about Traitor Town including Maps, Items, and Gamemodes.
+    details: It's all about INNOCENT SPIES versus TRAITOR SPIES. Who can you trust, and who is out to fill you with bullets?
     link: /traitor-town/
     linkText: Wiki
 ---
