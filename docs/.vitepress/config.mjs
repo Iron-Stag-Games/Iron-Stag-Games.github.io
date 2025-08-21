@@ -261,7 +261,7 @@ export default defineConfig({
 				},
 				{
 					text: 'Workshop',
-					collapsed: false,
+					collapsed: true,
 					items: [
 						{ text: 'Setup', link: '/traitor-town/workshop/setup' },
 						{ text: 'Building', link: '/traitor-town/workshop/building' },
