@@ -143,7 +143,6 @@ export default defineConfig({
 						{ text: 'Clue', link: '/traitor-town/maps/Clue' },
 						{ text: 'Compound', link: '/traitor-town/maps/Compound' },
 						{ text: 'Crossisle PD', link: '/traitor-town/maps/Crossisle PD' },
-						{ text: 'Death Run Test', link: '/traitor-town/maps/Death Run Test' },
 						{ text: 'Detective HQ', link: '/traitor-town/maps/Detective HQ' },
 						{ text: 'Domain Mall', link: '/traitor-town/maps/Domain Mall' },
 						{ text: 'Fabrik', link: '/traitor-town/maps/Fabrik' },
