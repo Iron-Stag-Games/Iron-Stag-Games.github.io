@@ -11,7 +11,7 @@ local Pronghorn = require(ReplicatedStorage.SharedModules.Pronghorn)
 ## Properties
 
 
-### Importing
+### ~~Importing~~
 
 Internal variable. Useless for minigames.
 
@@ -22,7 +22,7 @@ Pronghorn.Importing: New.TrackedVariable<boolean>
 Do not use Pronghorn.Importing:Set(...). This will break the game.
 :::
 
-### Imported
+### ~~Imported~~
 
 Internal variable. Useless for minigames.
 
@@ -46,7 +46,7 @@ Pronghorn.DeferredComplete: New.TrackedVariable<boolean>
 Do not use Pronghorn.DeferredComplete:Set(...). This will break the game.
 :::
 
-### ModuleStatus
+### ~~ModuleStatus~~
 
 Internal variable. Useless for minigames.
 

@@ -16,17 +16,17 @@ Returns the angle in radians between two `Vector3`s.
 Math.AngleBetweenVec3_Radians(vecA: Vector3, vecB: Vector3): number
 ```
 
-### AxisToCF
-
-Uncompresses a `Vector3` provided by `Math.CFToAxis(...)` into a rotation `CFrame`.
+### ~~AxisToCF~~
 
 Generally useless for minigames.
+
+Uncompresses a `Vector3` provided by `Math.CFToAxis(...)` into a rotation `CFrame`.
 
 ```lua
 Math.AxisToCF(axis: Vector3): CFrame
 ```
 
-### CFCLerp
+### ~~CFCLerp~~
 
 Linear interpolation between two `CFrame`s with alpha clamped to `[0, 1]`.
 
@@ -37,17 +37,17 @@ Math.CFCLerp(start: CFrame, goal: CFrame, alpha: number): CFrame
 Redundant - Please use `CFrame:Lerp(..., math.clamp(...))` instead.
 :::
 
-### CFToAxis
-
-Compresses a `CFrame`'s rotation into a `Vector3` by multiplying its unit `Vector3` axis by its rotation angle in radians. Decompressed with `Math.AxisToCF(...)`.
+### ~~CFToAxis~~
 
 Generally useless for minigames.
+
+Compresses a `CFrame`'s rotation into a `Vector3` by multiplying its unit `Vector3` axis by its rotation angle in radians. Decompressed with `Math.AxisToCF(...)`.
 
 ```lua
 Math.CFToAxis(cf: CFrame): Vector3
 ```
 
-### CLerp
+### ~~CLerp~~
 
 Linear interpolation between two `number`s with alpha clamped to `[0, 1]`.
 
@@ -101,7 +101,7 @@ Checks if the given point is within the `Part`'s extents.
 Math.IsPointInBlock(position: Vector3, block: Part): boolean
 ```
 
-### Lerp
+### ~~Lerp~~
 
 Linear interpolation between two `number`s.
 
@@ -158,7 +158,7 @@ Rotates the given `Vector3` along an axis in radians.
 Math.VecAxisAngle(srcVec: Vector3, axisVec: Vector3, angle: number): Vector3
 ```
 
-### VecCLerp
+### ~~VecCLerp~~
 
 Linear interpolation between two `Vector3`s with alpha clamped to `[0, 1]`.
 
@@ -196,7 +196,7 @@ Math.VecXZLengthSquared(vec: Vector3): number
 Misleading Name - This method returns a sum of components, not length/magnitude.
 :::
 
-### ZenoLerp
+### ~~ZenoLerp~~
 
 Linear interpolation between two `number`s with an added tolerance parameter.
 

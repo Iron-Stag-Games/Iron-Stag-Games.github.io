@@ -74,7 +74,7 @@ Stops all sustained shakes with an optional fade out time.
 cameraShaker:StopSustained(duration: number?): ()
 ```
 
-#### Update
+#### ~~Update~~
 
 Internal. Steps the `CameraShaker` by the provided delta time.
 
