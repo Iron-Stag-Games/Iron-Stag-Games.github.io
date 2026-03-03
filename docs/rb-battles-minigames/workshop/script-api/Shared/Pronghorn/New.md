@@ -118,7 +118,7 @@ Calling this function will throw an error.
 
 ### ServerInstanceStream
 
-Starts a `ServerInstanceStream` and returns its UID and any newly created `Instances`.
+Starts an `InstanceStream` and returns its UID and any newly created `Instances`.
 
 ```lua
 New.ServerInstanceStream(players: Player | {Player}, instances: {Instance}, exclusive: boolean?): (string, {[Player]: Instance}?, {[Player]: {any}}?)
@@ -126,7 +126,7 @@ New.ServerInstanceStream(players: Player | {Player}, instances: {Instance}, excl
 
 ### ClientInstanceStream
 
-Listens to a `ServerInstanceStream` and returns activity `Events`.
+Listens to an `InstanceStream` and returns activity `Events`.
 
 ```lua
 New.ClientInstanceStream(uid: string): (Event<...Instance?>, Event<Instance?>, Instance)
