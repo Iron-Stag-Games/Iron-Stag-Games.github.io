@@ -2,6 +2,8 @@
 
 The core module responsible for running the game.
 
+https://iron-stag-games.github.io/pronghorn/
+
 ```lua
 local Pronghorn = require(ReplicatedStorage.SharedModules.Pronghorn)
 ```

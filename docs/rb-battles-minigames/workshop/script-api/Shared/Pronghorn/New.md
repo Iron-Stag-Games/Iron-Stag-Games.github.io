@@ -2,6 +2,8 @@
 
 A core module which includes several useful classes.
 
+https://iron-stag-games.github.io/pronghorn/
+
 ```lua
 local New = require(ReplicatedStorage.SharedModules.Pronghorn.New)
 ```
@@ -51,6 +53,16 @@ Creates and returns an `Event`.
 New.Event(): New.Event<...any>
 ```
 
+#### Connect
+
+#### DisconnectAll
+
+#### Fire
+
+#### Once
+
+#### Wait
+
 ### QueuedEvent
 
 Creates and returns a `QueuedEvent`.
@@ -59,6 +71,16 @@ Creates and returns a `QueuedEvent`.
 New.QueuedEvent(): New.Event<...any>
 ```
 
+#### Connect
+
+#### DisconnectAll
+
+#### Fire
+
+#### Once
+
+#### Wait
+
 ### TrackedVariable
 
 Creates and returns a `TrackedVariable`.
@@ -66,6 +88,29 @@ Creates and returns a `TrackedVariable`.
 ```lua
 New.TrackedVariable(): New.TrackedVariable<any>
 ```
+
+#### Connect
+
+#### DisconnectAll
+
+#### Get
+
+#### Once
+
+#### Set
+
+#### Wait
+
+#### WaitFor
+
+Unimplemented.
+
+```lua
+trackedVariable:WaitFor(value: T, timeout: number?): (boolean, T, T)
+```
+::: danger
+Calling this function will throw an error.
+:::
 
 ### ServerInstanceStream
 
