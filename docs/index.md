@@ -16,6 +16,10 @@ features:
     details: Pronghorn is a Roblox framework with a direct approach to Module scripting that facilitates rapid development.
     link: /pronghorn/
     linkText: Docs
+  - title: RB Battles Minigames
+    details: Face off against your friends and fellow Battlers and become the number one player!
+    link: /rb-battles-minigames/
+    linkText: Docs
   - title: Traitor Town
     details: It's all about INNOCENT SPIES versus TRAITOR SPIES. Who can you trust, and who is out to fill you with bullets?
     link: /traitor-town/
