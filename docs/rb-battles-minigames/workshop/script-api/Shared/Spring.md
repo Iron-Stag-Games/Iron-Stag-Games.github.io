@@ -1,6 +1,6 @@
 # Spring
 
-Tweens the properties of `Instance`s based on a physical spring model.
+A module for tweening the properties of `Instance`s based on a physical spring model.
 
 Also see [QSpring](https://iron-stag-games.github.io/rb-battles-minigames/workshop/script-api/Shared/QSpring).
 
