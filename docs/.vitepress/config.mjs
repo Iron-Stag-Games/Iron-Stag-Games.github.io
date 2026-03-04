@@ -95,14 +95,14 @@ export default defineConfig({
 			'/rb-battles-minigames/': [
 				{
 					text: 'Workshop',
-					collapsed: false,
+					collapsed: true,
 					items: [
 						{ text: 'Setup', link: '/rb-battles-minigames/' },
 						{ text: 'Building', link: '/rb-battles-minigames/workshop/building' },
 						{ text: 'Publishing and Testing', link: '/rb-battles-minigames/workshop/publishing-and-testing' },
 						{
 							text: 'Minigame Format',
-							collapsed: false,
+							collapsed: true,
 							items: [
 								{
 									text: 'Maps',
@@ -127,7 +127,7 @@ export default defineConfig({
 						},
 						{
 							text: 'Script API',
-							collapsed: false,
+							collapsed: true,
 							items: [
 								{
 									text: 'Shared',
