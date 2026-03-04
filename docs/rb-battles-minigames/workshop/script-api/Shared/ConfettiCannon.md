@@ -1,6 +1,6 @@
 # ConfettiCannon
 
-A single-use module for spawning confetti particles.
+A single-method module for spawning confetti particles.
 
 ```lua
 local ConfettiCannon = require(ReplicatedStorage.SharedModules.ConfettiCannon)
