@@ -58,7 +58,7 @@ janitor:Get(index: number): any?
 
 ##### janitor.LinkToInstance
 
-"Links" this `Janitor` to an `Instance`, such that the Janitor will `Cleanup` when the `Instance` is `Destroy`ed and garbage collected. A `Janitor` may only be linked to one `Instance` at a time, unless `AllowMultiple` is `true`. When called with a truthy `AllowMultiple` parameter, the `Janitor` will "link" the `Instance` without overwriting any previous links, and will also not be overwritable. When called with a falsy `AllowMultiple` parameter, the `Janitor` will overwrite the previous link which was also called with a falsy `AllowMultiple` parameter, if applicable.
+"Links" this `Janitor` to an `Instance`, such that the Janitor will `Cleanup` when the `Instance` is `Destroy()`ed and garbage collected. A `Janitor` may only be linked to one `Instance` at a time, unless `AllowMultiple` is `true`. When called with a truthy `AllowMultiple` parameter, the `Janitor` will "link" the `Instance` without overwriting any previous links, and will also not be overwritable. When called with a falsy `AllowMultiple` parameter, the `Janitor` will overwrite the previous link which was also called with a falsy `AllowMultiple` parameter, if applicable.
 
 ```lua
 janitor:LinkToInstance(object: Instance, allowMultiple: boolean?): {Connected: boolean, Connection: RBXScriptConnection}
