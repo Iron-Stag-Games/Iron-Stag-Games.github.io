@@ -128,7 +128,7 @@ Returns a unit `Vector3` interpolation using a circular curve.
 Math.Slerp(vStart: Vector3, vEnd: Vector3, alpha: number): Vector3
 ```
 
-### Vec2LengthSquared
+### ~~Vec2LengthSquared~~
 
 Returns the squared sum of the XY components for a `Vector2`.
 
@@ -139,7 +139,7 @@ Math.Vec2LengthSquared(vec: Vector2): number
 Misleading Name - This method returns a sum of components, not length/magnitude.
 :::
 
-### Vec3LengthSquared
+### ~~Vec3LengthSquared~~
 
 Returns the squared sum of the XYZ components for a `Vector3`.
 
@@ -185,7 +185,7 @@ Returns the magnitude of a `Vector3` while ignoring the Y component.
 Math.VecXZLength(vec: Vector3): number
 ```
 
-### VecXZLengthSquared
+### ~~VecXZLengthSquared~~
 
 Returns the squared sum of the XZ components for a `Vector3`.
 
