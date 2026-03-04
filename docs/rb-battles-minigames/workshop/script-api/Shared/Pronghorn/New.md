@@ -49,18 +49,6 @@ Creates and returns an `Event`.
 New.Event(): New.Event<...any>
 ```
 
-#### Methods
-
-##### event.Connect
-
-##### event.DisconnectAll
-
-##### event.Fire
-
-##### event.Once
-
-##### event.Wait
-
 ### QueuedEvent
 
 Creates and returns a `QueuedEvent`.
@@ -69,18 +57,6 @@ Creates and returns a `QueuedEvent`.
 New.QueuedEvent(): New.Event<...any>
 ```
 
-#### Methods
-
-##### queuedEvent.Connect
-
-##### queuedEvent.DisconnectAll
-
-##### queuedEvent.Fire
-
-##### queuedEvent.Once
-
-##### queuedEvent.Wait
-
 ### TrackedVariable
 
 Creates and returns a `TrackedVariable`.
@@ -88,32 +64,6 @@ Creates and returns a `TrackedVariable`.
 ```lua
 New.TrackedVariable(): New.TrackedVariable<any>
 ```
-
-#### Methods
-
-##### trackedVariable.Connect
-
-##### trackedVariable.DisconnectAll
-
-##### trackedVariable.Get
-
-##### trackedVariable.Once
-
-##### trackedVariable.Set
-
-##### trackedVariable.Wait
-
-##### trackedVariable.WaitFor
-
-Unimplemented.
-
-```lua
-trackedVariable:WaitFor(value: T, timeout: number?): (boolean, T, T)
-```
-::: danger
-Calling this function will throw an error.
-:::
-
 ## Methods
 
 ### Children
@@ -139,3 +89,46 @@ Listens to an `InstanceStream` and returns activity `Events`.
 ```lua
 New.ClientInstanceStream(uid: string): (Event<...Instance?>, Event<Instance?>, Instance)
 ```
+
+### event.Connect
+
+### event.DisconnectAll
+
+### event.Fire
+
+### event.Once
+
+### event.Wait
+
+### queuedEvent.Connect
+
+### queuedEvent.DisconnectAll
+
+### queuedEvent.Fire
+
+### queuedEvent.Once
+
+### queuedEvent.Wait
+
+### trackedVariable.Connect
+
+### trackedVariable.DisconnectAll
+
+### trackedVariable.Get
+
+### trackedVariable.Once
+
+### trackedVariable.Set
+
+### trackedVariable.Wait
+
+### trackedVariable.WaitFor
+
+Unimplemented.
+
+```lua
+trackedVariable:WaitFor(value: T, timeout: number?): (boolean, T, T)
+```
+::: danger
+Calling this function will throw an error.
+:::

@@ -22,9 +22,9 @@ Creates a new `Spring`.
 Spring.new(initial: number?, clock: (() -> number)?): Spring
 ```
 
-#### Properties
+## Properties
 
-##### spring.Clock
+### spring.Clock
 
 The precise time function.
 
@@ -32,7 +32,7 @@ The precise time function.
 spring.Clock: () -> number
 ```
 
-##### spring.Damper / spring.d
+### spring.Damper / spring.d
 
 The `Spring` damper with a value of `[0, 1]`.
 
@@ -42,7 +42,7 @@ spring.Damper: number
 spring.d: number
 ```
 
-##### spring.Speed / spring.s
+### spring.Speed / spring.s
 
 The `Spring` speed with a value of `[0, inf)`.
 
@@ -52,7 +52,7 @@ spring.Speed: number
 spring.s: number
 ```
 
-##### spring.Target / spring.t
+### spring.Target / spring.t
 
 The `Spring` target.
 
@@ -62,7 +62,7 @@ spring.Target: number | Vector3
 spring.t: number | Vector3
 ```
 
-##### spring.Value / spring.Position / spring.p
+### spring.Value / spring.Position / spring.p
 
 The `Spring` value at the current time.
 
@@ -74,7 +74,7 @@ spring.Position: number | Vector3
 spring.p: number | Vector3
 ```
 
-##### spring.Velocity / spring.v
+### spring.Velocity / spring.v
 
 The `Spring` velocity at the current time.
 
@@ -84,9 +84,9 @@ spring.Velocity: number | Vector3
 spring.v: number | Vector3
 ```
 
-#### Methods
+## Methods
 
-##### spring.Impulse
+### spring.Impulse
 
 Impulses the `Spring` with a change in velocity.
 
@@ -96,7 +96,7 @@ Equivalent to `spring.Velocity += velocity`.
 spring:Impulse(velocity: number | Vector3): ()
 ```
 
-##### spring.TimeSkip
+### spring.TimeSkip
 
 Skips forwards in time.
 

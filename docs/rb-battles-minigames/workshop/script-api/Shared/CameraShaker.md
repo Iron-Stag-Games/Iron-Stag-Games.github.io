@@ -18,9 +18,9 @@ Creates and returns a `CameraShaker`.
 CameraShaker.new(renderPriority: number, callback: (cf: CFrame) -> ()): CameraShaker
 ```
 
-#### Methods
+## Methods
 
-##### cameraShaker.Shake
+### cameraShaker.Shake
 
 Applies a shake effect once.
 
@@ -28,7 +28,7 @@ Applies a shake effect once.
 cameraShaker:Shake(shakeInstance)
 ```
 
-##### cameraShaker.ShakeOnce
+### cameraShaker.ShakeOnce
 
 Applies a custom shake effect once.
 
@@ -36,7 +36,7 @@ Applies a custom shake effect once.
 cameraShaker:ShakeOnce(magnitude, roughness, fadeInTime, fadeOutTime, posInfluence, rotInfluence)
 ```
 
-##### cameraShaker.ShakeSustain
+### cameraShaker.ShakeSustain
 
 Applies a shake effect coninuously.
 
@@ -44,7 +44,7 @@ Applies a shake effect coninuously.
 cameraShaker:ShakeSustain(shakeInstance)
 ```
 
-##### cameraShaker.Start
+### cameraShaker.Start
 
 Starts the `CameraShaker`.
 
@@ -52,7 +52,7 @@ Starts the `CameraShaker`.
 cameraShaker:Start(): ()
 ```
 
-##### cameraShaker.StartShake
+### cameraShaker.StartShake
 
 Applies a custom shake effect continuously.
 
@@ -60,7 +60,7 @@ Applies a custom shake effect continuously.
 cameraShaker:StartShake(magnitude, roughness, fadeInTime, posInfluence, rotInfluence)
 ```
 
-##### cameraShaker.Stop
+### cameraShaker.Stop
 
 Stops the `CameraShaker`.
 
@@ -68,7 +68,7 @@ Stops the `CameraShaker`.
 cameraShaker:Stop(): ()
 ```
 
-##### cameraShaker.StopSustained
+### cameraShaker.StopSustained
 
 Stops all sustained shakes with an optional fade out time.
 
@@ -76,7 +76,7 @@ Stops all sustained shakes with an optional fade out time.
 cameraShaker:StopSustained(duration: number?): ()
 ```
 
-##### cameraShaker.Update
+### cameraShaker.Update
 
 Skips forward in time.
 
