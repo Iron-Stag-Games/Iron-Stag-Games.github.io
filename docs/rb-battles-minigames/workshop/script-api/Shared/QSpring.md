@@ -88,7 +88,7 @@ spring.v: number | Vector3
 
 ##### spring.Impulse
 
-Impulse the `Spring` with a change in velocity.
+Impulses the `Spring` with a change in velocity.
 
 Equivalent to `spring.Velocity += velocity`.
 
@@ -98,7 +98,7 @@ spring:Impulse(velocity: number | Vector3): ()
 
 ##### spring.TimeSkip
 
-Skip forwards in time.
+Skips forwards in time.
 
 ```lua
 spring:TimeSkip(delta: number): ()
