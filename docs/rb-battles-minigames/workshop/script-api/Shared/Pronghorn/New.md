@@ -62,7 +62,7 @@ New.QueuedEvent(): New.Event<...any>
 Creates and returns a `TrackedVariable`.
 
 ```lua
-New.TrackedVariable(): New.TrackedVariable<any>
+New.TrackedVariable(variable: T): New.TrackedVariable<T>
 ```
 ## Methods
 
