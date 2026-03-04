@@ -118,7 +118,7 @@ Calling this function will throw an error.
 
 ### Children
 
-Parents all children to an instance.
+Parents a group of `Instances` to an `Instance`.
 
 ```lua
 New.Children(parent: Instance, children: {Instance}?): ()
