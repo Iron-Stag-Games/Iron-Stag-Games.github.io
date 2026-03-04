@@ -124,11 +124,6 @@ New.ClientInstanceStream(uid: string): (Event<...Instance?>, Event<Instance?>, I
 
 ### trackedVariable.WaitFor
 
-Unimplemented.
-
 ```lua
 trackedVariable:WaitFor(value: T, timeout: number?): (boolean, T, T)
 ```
-::: danger
-Calling this method will throw an error.
-:::
