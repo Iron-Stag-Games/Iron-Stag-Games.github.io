@@ -2,6 +2,8 @@
 
 A physical model of a spring, useful in many applications. Properties only evaluate upon index making this model good for lazy applications.
 
+(The "Q" stands for "Quenty", the author of the module.)
+
 Also see [Spring](https://iron-stag-games.github.io/rb-battles-minigames/workshop/script-api/Shared/Spring).
 
 https://quenty.github.io/NevermoreEngine/api/Spring/
