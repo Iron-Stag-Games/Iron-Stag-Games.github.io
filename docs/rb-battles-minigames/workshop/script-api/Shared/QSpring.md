@@ -12,7 +12,7 @@ https://quenty.github.io/NevermoreEngine/api/Spring/
 local QSpring = require(ReplicatedStorage.SharedModules.QSpring)
 ```
 
-## Methods
+## Constructors
 
 ### new
 
