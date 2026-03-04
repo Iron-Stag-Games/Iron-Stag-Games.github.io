@@ -130,5 +130,5 @@ Unimplemented.
 trackedVariable:WaitFor(value: T, timeout: number?): (boolean, T, T)
 ```
 ::: danger
-Calling this function will throw an error.
+Calling this method will throw an error.
 :::

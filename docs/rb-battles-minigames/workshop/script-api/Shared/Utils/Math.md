@@ -34,7 +34,7 @@ Linear interpolation between two `CFrame`s with alpha clamped to `[0, 1]`.
 Math.CFCLerp(start: CFrame, goal: CFrame, alpha: number): CFrame
 ```
 ::: tip
-Redundant - Please use `CFrame:Lerp(..., math.clamp(...))` instead.
+Redundant - Please use `CFrame:Lerp(..., math.clamp(..., 0, 1))` instead.
 :::
 
 ### ~~CFToAxis~~
@@ -55,7 +55,7 @@ Linear interpolation between two `number`s with alpha clamped to `[0, 1]`.
 Math.CLerp(start: number, goal: number, alpha: number): number
 ```
 ::: tip
-Redundant - Please use `math.map(math.clamp(...), ...)` instead.
+Redundant - Please use `math.map(math.clamp(..., 0, 1), ...)` instead.
 :::
 
 ### DegreeCLerp
@@ -166,7 +166,7 @@ Linear interpolation between two `Vector3`s with alpha clamped to `[0, 1]`.
 Math.VecCLerp(start: Vector3, goal: Vector3, alpha: number): Vector3
 ```
 ::: tip
-Redundant - Please use `Vector3:Lerp(..., math.clamp(...))` instead.
+Redundant - Please use `Vector3:Lerp(..., math.clamp(..., 0, 1))` instead.
 :::
 
 ### VecDeadzone
