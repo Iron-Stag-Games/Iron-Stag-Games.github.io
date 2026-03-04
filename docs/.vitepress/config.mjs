@@ -108,7 +108,7 @@ export default defineConfig({
 									text: 'Maps',
 									collapsed: false,
 									items: [
-										{ text: 'Maps', link: '/rb-battles-minigames/workshop/minigame-format/Maps/Maps' },
+										{ text: 'Maps', link: '/rb-battles-minigames/workshop/minigame-format/Maps/' },
 										{ text: 'LightingSettings', link: '/rb-battles-minigames/workshop/minigame-format/Maps/LightingSettings' },
 										{ text: 'Collision groups', link: '/rb-battles-minigames/workshop/minigame-format/Maps/collision-groups' }
 									]
@@ -119,7 +119,7 @@ export default defineConfig({
 									text: 'Client',
 									collapsed: false,
 									items: [
-										{ text: 'Client', link: '/rb-battles-minigames/workshop/minigame-format/Client/Client' },
+										{ text: 'Client', link: '/rb-battles-minigames/workshop/minigame-format/Client/' },
 										{ text: 'SpectateLogic', link: '/rb-battles-minigames/workshop/minigame-format/Client/SpectateLogic' }
 									]
 								}
@@ -137,7 +137,7 @@ export default defineConfig({
 											text: 'Pronghorn',
 											collapsed: false,
 											items: [
-												{ text: 'Pronghorn', link: '/rb-battles-minigames/workshop/script-api/Shared/Pronghorn/Pronghorn' },
+												{ text: 'Pronghorn', link: '/rb-battles-minigames/workshop/script-api/Shared/Pronghorn/' },
 												{ text: 'New', link: '/rb-battles-minigames/workshop/script-api/Shared/Pronghorn/New' }
 											]
 										},
