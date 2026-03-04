@@ -39,15 +39,7 @@ export type InstanceStream<T...> = {
 }
 ```
 
-## Methods
-
-### Children
-
-Parents all children to an instance.
-
-```lua
-New.Children(parent: Instance, children: {Instance}?): ()
-```
+## Constructors
 
 ### Event
 
@@ -57,15 +49,17 @@ Creates and returns an `Event`.
 New.Event(): New.Event<...any>
 ```
 
-#### Connect
+#### Methods
 
-#### DisconnectAll
+##### event.Connect
 
-#### Fire
+##### event.DisconnectAll
 
-#### Once
+##### event.Fire
 
-#### Wait
+##### event.Once
+
+##### event.Wait
 
 ### QueuedEvent
 
@@ -75,15 +69,17 @@ Creates and returns a `QueuedEvent`.
 New.QueuedEvent(): New.Event<...any>
 ```
 
-#### Connect
+#### Methods
 
-#### DisconnectAll
+##### queuedEvent.Connect
 
-#### Fire
+##### queuedEvent.DisconnectAll
 
-#### Once
+##### queuedEvent.Fire
 
-#### Wait
+##### queuedEvent.Once
+
+##### queuedEvent.Wait
 
 ### TrackedVariable
 
@@ -93,19 +89,21 @@ Creates and returns a `TrackedVariable`.
 New.TrackedVariable(): New.TrackedVariable<any>
 ```
 
-#### Connect
+#### Methods
 
-#### DisconnectAll
+##### trackedVariable.Connect
 
-#### Get
+##### trackedVariable.DisconnectAll
 
-#### Once
+##### trackedVariable.Get
 
-#### Set
+##### trackedVariable.Once
 
-#### Wait
+##### trackedVariable.Set
 
-#### WaitFor
+##### trackedVariable.Wait
+
+##### trackedVariable.WaitFor
 
 Unimplemented.
 
@@ -115,6 +113,16 @@ trackedVariable:WaitFor(value: T, timeout: number?): (boolean, T, T)
 ::: danger
 Calling this function will throw an error.
 :::
+
+## Methods
+
+### Children
+
+Parents all children to an instance.
+
+```lua
+New.Children(parent: Instance, children: {Instance}?): ()
+```
 
 ### ServerInstanceStream
 

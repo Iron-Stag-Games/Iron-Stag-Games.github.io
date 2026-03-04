@@ -8,7 +8,7 @@ https://github.com/Sleitnick/RbxCameraShaker
 local CameraShaker = require(ReplicatedStorage.SharedModules.CameraShaker)
 ```
 
-## Methods
+## Constructors
 
 ### new
 
@@ -18,7 +18,9 @@ Creates and returns a `CameraShaker`.
 CameraShaker.new(renderPriority: number, callback: (cf: CFrame) -> ()): CameraShaker
 ```
 
-#### Shake
+#### Methods
+
+##### cameraShaker.Shake
 
 Applies a shake effect once.
 
@@ -26,7 +28,7 @@ Applies a shake effect once.
 cameraShaker:Shake(shakeInstance)
 ```
 
-#### ShakeOnce
+##### cameraShaker.ShakeOnce
 
 Applies a custom shake effect once.
 
@@ -34,7 +36,7 @@ Applies a custom shake effect once.
 cameraShaker:ShakeOnce(magnitude, roughness, fadeInTime, fadeOutTime, posInfluence, rotInfluence)
 ```
 
-#### ShakeSustain
+##### cameraShaker.ShakeSustain
 
 Applies a shake effect coninuously.
 
@@ -42,7 +44,7 @@ Applies a shake effect coninuously.
 cameraShaker:ShakeSustain(shakeInstance)
 ```
 
-#### Start
+##### cameraShaker.Start
 
 Starts the `CameraShaker`.
 
@@ -50,7 +52,7 @@ Starts the `CameraShaker`.
 cameraShaker:Start(): ()
 ```
 
-#### StartShake
+##### cameraShaker.StartShake
 
 Applies a custom shake effect continuously.
 
@@ -58,7 +60,7 @@ Applies a custom shake effect continuously.
 cameraShaker:StartShake(magnitude, roughness, fadeInTime, posInfluence, rotInfluence)
 ```
 
-#### Stop
+##### cameraShaker.Stop
 
 Stops the `CameraShaker`.
 
@@ -66,7 +68,7 @@ Stops the `CameraShaker`.
 cameraShaker:Stop(): ()
 ```
 
-#### StopSustained
+##### cameraShaker.StopSustained
 
 Stops all sustained shakes with an optional fade out time.
 
@@ -74,7 +76,7 @@ Stops all sustained shakes with an optional fade out time.
 cameraShaker:StopSustained(duration: number?): ()
 ```
 
-#### ~~Update~~
+##### ~~cameraShaker.Update~~
 
 Internal. Steps the `CameraShaker` by the provided delta time.
 

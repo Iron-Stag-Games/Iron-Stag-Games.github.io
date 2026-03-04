@@ -150,11 +150,9 @@ export default defineConfig({
 										},
 										{ text: 'CameraShaker', link: '/rb-battles-minigames/workshop/script-api/Shared/CameraShaker' },
 										{ text: 'ConfettiCannon', link: '/rb-battles-minigames/workshop/script-api/Shared/ConfettiCannon' },
-										{ text: 'Easing', link: '/rb-battles-minigames/workshop/script-api/Shared/Easing' },
 										{ text: 'HumanoidDescriptions', link: '/rb-battles-minigames/workshop/script-api/Shared/HumanoidDescriptions' },
 										{ text: 'Janitor', link: '/rb-battles-minigames/workshop/script-api/Shared/Janitor' },
 										{ text: 'QSpring', link: '/rb-battles-minigames/workshop/script-api/Shared/QSpring' },
-										{ text: 'RaycastHitbox', link: '/rb-battles-minigames/workshop/script-api/Shared/RaycastHitbox' },
 										{ text: 'SimpleUI', link: '/rb-battles-minigames/workshop/script-api/Shared/SimpleUI' },
 										{ text: 'Spring', link: '/rb-battles-minigames/workshop/script-api/Shared/Spring' }
 									]
