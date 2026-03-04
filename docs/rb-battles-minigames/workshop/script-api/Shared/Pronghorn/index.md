@@ -37,7 +37,7 @@ Do not use Pronghorn.Imported:Set(...). This will break the game.
 
 Whether or not game modules have completed loading. The value returned by `Get()` changes to `true` once loading has completed, and will remain as such thereafter.
 
-You will generally only need to check its value on `Scripts` with the `RunContext == Client`.
+You will need to check its value on `Script`s with the `RunContext == Client` before those `Script`s can safely require client modules. Not necessary for all other scenarios.
 
 ```lua
 Pronghorn.DeferredComplete: New.TrackedVariable<boolean>
