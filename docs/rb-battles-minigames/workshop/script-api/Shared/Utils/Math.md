@@ -16,6 +16,91 @@ Returns the angle in radians between two `Vector3`s.
 Math.AngleBetweenVec3_Radians(vecA: Vector3, vecB: Vector3): number
 ```
 
+### DegreeCLerp
+
+Linear interpolation between angles in degrees with alpha clamped to `[0, 1]`.
+
+```lua
+Math.DegreeCLerp(start: number, goal: number, alpha: number): number
+```
+
+### DistanceXZ
+
+Returns the XZ distance of two `Vector3`s.
+
+```lua
+Math.DistanceXZ(vec1: Vector3, vec2: Vector3): number
+```
+
+### GetVecXZ
+
+Returns the `Vector3` without the Y component.
+
+```lua
+Math.GetVecXZ(vec: Vector3): Vector3
+```
+
+### GetVecXZUnit
+
+Returns the unit vector of a `Vector3` while ignoring the Y component.
+
+```lua
+Math.GetVecXZUnit(vec: Vector3): Vector3
+```
+::: warning
+Will return `nan, nan, nan` if the provided `Vector3`'s XZ components are both `0`.
+:::
+
+### IsPointInBlock
+
+Checks if the given point is within the `Part`'s extents.
+
+```lua
+Math.IsPointInBlock(position: Vector3, block: Part): boolean
+```
+
+### ScaleCFPos
+
+Multiplies a `CFrame`'s XYZ components.
+
+```lua
+Math.ScaleCFPos(cf: CFrame, scale: number): CFrame
+```
+
+### Slerp
+
+Returns a unit `Vector3` interpolation using a circular curve.
+
+```lua
+Math.Slerp(vStart: Vector3, vEnd: Vector3, alpha: number): Vector3
+```
+
+### VecAxisAngle
+
+Rotates the given `Vector3` along an axis in radians.
+
+```lua
+Math.VecAxisAngle(srcVec: Vector3, axisVec: Vector3, angle: number): Vector3
+```
+
+### VecDeadzone
+
+Sets the XYZ components of a `Vector3` which have an absolute value below a specified threshold to `0`.
+
+```lua
+Math.VecDeadzone(vec: Vector3, deadzone: number): Vector3
+```
+
+### VecXZLength
+
+Returns the magnitude of a `Vector3` while ignoring the Y component.
+
+```lua
+Math.VecXZLength(vec: Vector3): number
+```
+
+## Deprecated Methods
+
 ### ~~AxisToCF~~
 
 Generally useless for minigames.
@@ -58,41 +143,6 @@ Math.CLerp(start: number, goal: number, alpha: number): number
 Redundant - Please use `math.map(math.clamp(..., 0, 1), 0, 1, ...)` instead.
 :::
 
-### DegreeCLerp
-
-Linear interpolation between angles in degrees with alpha clamped to `[0, 1]`.
-
-```lua
-Math.DegreeCLerp(start: number, goal: number, alpha: number): number
-```
-
-### DistanceXZ
-
-Returns the XZ distance of two `Vector3`s.
-
-```lua
-Math.DistanceXZ(vec1: Vector3, vec2: Vector3): number
-```
-
-### GetVecXZ
-
-Returns the `Vector3` without the Y component.
-
-```lua
-Math.GetVecXZ(vec: Vector3): Vector3
-```
-
-### GetVecXZUnit
-
-Returns the unit vector of a `Vector3` while ignoring the Y component.
-
-```lua
-Math.GetVecXZUnit(vec: Vector3): Vector3
-```
-::: warning
-Will return `nan, nan, nan` if the provided `Vector3`'s XZ components are both `0`.
-:::
-
 ### ~~InverseLerp~~
 
 Inverse linear interpolation between min and max `number`s.
@@ -104,14 +154,6 @@ Math.InverseLerp(valueMin: number, valueMax: number, value: number): number
 Redundant - Please use `math.map(...)` instead.
 :::
 
-### IsPointInBlock
-
-Checks if the given point is within the `Part`'s extents.
-
-```lua
-Math.IsPointInBlock(position: Vector3, block: Part): boolean
-```
-
 ### ~~Lerp~~
 
 Linear interpolation between two values which support `T + T` and `T * number` operations, such as `number`s, `Vector2`s, or `Vector3`s.
@@ -122,22 +164,6 @@ Math.Lerp(value1: T, value2: T, alpha: number): T
 ::: tip
 Redundant - Please use `math.map(...)`, `Vector2:Lerp(...)`, or `Vector3:Lerp(...)` instead.
 :::
-
-### ScaleCFPos
-
-Multiplies a `CFrame`'s XYZ components.
-
-```lua
-Math.ScaleCFPos(cf: CFrame, scale: number): CFrame
-```
-
-### Slerp
-
-Returns a unit `Vector3` interpolation using a circular curve.
-
-```lua
-Math.Slerp(vStart: Vector3, vEnd: Vector3, alpha: number): Vector3
-```
 
 ### ~~Vec2LengthSquared~~
 
@@ -161,14 +187,6 @@ Math.Vec3LengthSquared(vec: Vector3): number
 Misleading Name - This method returns a sum of components, not length/magnitude.
 :::
 
-### VecAxisAngle
-
-Rotates the given `Vector3` along an axis in radians.
-
-```lua
-Math.VecAxisAngle(srcVec: Vector3, axisVec: Vector3, angle: number): Vector3
-```
-
 ### ~~VecCLerp~~
 
 Linear interpolation between two `Vector3`s with alpha clamped to `[0, 1]`.
@@ -179,22 +197,6 @@ Math.VecCLerp(start: Vector3, goal: Vector3, alpha: number): Vector3
 ::: tip
 Redundant - Please use `Vector3:Lerp(..., math.clamp(..., 0, 1))` instead.
 :::
-
-### VecDeadzone
-
-Sets the XYZ components of a `Vector3` which have an absolute value below a specified threshold to `0`.
-
-```lua
-Math.VecDeadzone(vec: Vector3, deadzone: number): Vector3
-```
-
-### VecXZLength
-
-Returns the magnitude of a `Vector3` while ignoring the Y component.
-
-```lua
-Math.VecXZLength(vec: Vector3): number
-```
 
 ### ~~VecXZLengthSquared~~
 
