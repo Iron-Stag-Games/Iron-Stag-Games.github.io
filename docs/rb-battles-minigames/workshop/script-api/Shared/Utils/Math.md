@@ -101,6 +101,10 @@ Math.VecXZLength(vec: Vector3): number
 
 ## Deprecated Methods
 
+::: danger
+Deprecated methods may be removed in the future. Do not use them for new work.
+:::
+
 ### ~~AxisToCF~~
 
 Generally useless for minigames.
