@@ -93,6 +93,17 @@ Math.GetVecXZUnit(vec: Vector3): Vector3
 Will return `nan, nan, nan` if the provided `Vector3`'s XZ components are both `0`.
 :::
 
+### ~~InverseLerp~~
+
+Inverse linear interpolation between min and max `number`s.
+
+```lua
+Math.InverseLerp(valueMin: number, valueMax: number, value: number): number
+```
+::: tip
+Redundant - Please use `math.map(...)` instead.
+:::
+
 ### IsPointInBlock
 
 Checks if the given point is within the `Part`'s extents.
@@ -198,14 +209,11 @@ Misleading Name - This method returns a sum of components, not length/magnitude.
 
 ### ~~ZenoLerp~~
 
-Linear interpolation between two `number`s with an added tolerance parameter.
+Linear interpolation between two `number`s with an added tolerance parameter. If the resulting `number`'s absolute value `<= epsilon`, the method returns `0`.
 
 ```lua
 Math.ZenoLerp(value1: number, value2: number, alpha: number, epsilon: number): number
 ```
 ::: danger
 Misleading Name - This method uses linear interpolation, not easing.
-:::
-::: tip
-Redundant - Please use `math.map(...)` instead.
 :::
