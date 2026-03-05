@@ -142,11 +142,14 @@ AvatarController:GetControlsArray_DiveRoll(): {Enum.KeyCode}
 
 ### GetControlsArray_WallJumpCancel
 
-Returns an array of `Enum.KeyCode`s which activate jumping.
+Returns an array of `Enum.KeyCode`s which cancel wall sliding.
 
 ```lua
 AvatarController:GetControlsArray_WallJumpCancel(): {Enum.KeyCode}
 ```
+::: danger
+Misleading Name - This method applies to wall sliding, not wall jumping.
+:::
 
 ### GetControlsTable_DiveRoll
 
