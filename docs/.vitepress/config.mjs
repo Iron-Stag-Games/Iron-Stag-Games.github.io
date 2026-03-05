@@ -148,12 +148,10 @@ export default defineConfig({
 												{ text: 'Math', link: '/rb-battles-minigames/workshop/script-api/Shared/Utils/Math' }
 											]
 										},
-										{ text: 'CameraShaker', link: '/rb-battles-minigames/workshop/script-api/Shared/CameraShaker' },
 										{ text: 'ConfettiCannon', link: '/rb-battles-minigames/workshop/script-api/Shared/ConfettiCannon' },
 										{ text: 'HumanoidDescriptions', link: '/rb-battles-minigames/workshop/script-api/Shared/HumanoidDescriptions' },
 										{ text: 'Janitor', link: '/rb-battles-minigames/workshop/script-api/Shared/Janitor' },
 										{ text: 'QSpring', link: '/rb-battles-minigames/workshop/script-api/Shared/QSpring' },
-										{ text: 'SimpleUI', link: '/rb-battles-minigames/workshop/script-api/Shared/SimpleUI' },
 										{ text: 'Spring', link: '/rb-battles-minigames/workshop/script-api/Shared/Spring' }
 									]
 								},
@@ -194,6 +192,14 @@ export default defineConfig({
 												{ text: 'SoundController', link: '/rb-battles-minigames/workshop/script-api/Client/Controllers/SoundController' },
 												{ text: 'SpectateController', link: '/rb-battles-minigames/workshop/script-api/Client/Controllers/SpectateController' },
 												{ text: 'TopBarUI', link: '/rb-battles-minigames/workshop/script-api/Client/Controllers/TopBarUI' }
+											]
+										},
+										{
+											text: 'Modules',
+											collapsed: false,
+											items: [
+												{ text: 'CameraShaker', link: '/rb-battles-minigames/workshop/script-api/Client/Modules/CameraShaker' },
+												{ text: 'SimpleUI', link: '/rb-battles-minigames/workshop/script-api/Client/Modules/SimpleUI' }
 											]
 										}
 									]
