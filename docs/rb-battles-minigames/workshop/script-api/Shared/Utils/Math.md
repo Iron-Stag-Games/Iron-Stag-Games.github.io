@@ -55,7 +55,7 @@ Linear interpolation between two `number`s with alpha clamped to `[0, 1]`.
 Math.CLerp(start: number, goal: number, alpha: number): number
 ```
 ::: tip
-Redundant - Please use `math.map(math.clamp(..., 0, 1), ...)` instead.
+Redundant - Please use `math.map(math.clamp(..., 0, 1), 0, 1, ...)` instead.
 :::
 
 ### DegreeCLerp
@@ -103,13 +103,13 @@ Math.IsPointInBlock(position: Vector3, block: Part): boolean
 
 ### ~~Lerp~~
 
-Linear interpolation between two `number`s.
+Linear interpolation between two values which support `T + T` and `T * number` operations, such as `number`s, `Vector2`s, or `Vector3`s.
 
 ```lua
-Math.Lerp(value1: number, value2: number, alpha: number): number
+Math.Lerp(value1: T, value2: T, alpha: number): T
 ```
 ::: tip
-Redundant - Please use `math.map(...)` instead.
+Redundant - Please use `math.map(...)`, `Vector2:Lerp(...)`, or `Vector3:Lerp(...)` instead.
 :::
 
 ### ScaleCFPos
