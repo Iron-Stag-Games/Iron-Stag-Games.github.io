@@ -1,5 +1,7 @@
 # AvatarController
 
+The controller responsible for local player controls, local character abilities and ability animations, local character transparency, and death effects.
+
 ```lua
 local AvatarController = require(ReplicatedStorage.ClientModules.Controllers.AvatarController)
 ```
@@ -30,7 +32,7 @@ AvatarController:AreControlsEnabled(): boolean
 
 ### DisableAllAbilities
 
-Calls the `Disable()` method on all local player abilities.
+Calls the `Disable()` method on all local character abilities.
 
 ```lua
 AvatarController:DisableAllAbilities(): ()
@@ -70,7 +72,7 @@ AvatarController:DisableWalkingFootstepSFX(): ()
 
 ### EnableAllAbilities
 
-Calls the `Enable()` method on all local player abilities.
+Calls the `Enable()` method on all local character abilities.
 
 ```lua
 AvatarController:EnableAllAbilities(): ()
