@@ -19,7 +19,6 @@ export default defineConfig({
 		nav: [
 			{ text: 'Lync', link: '/lync/', activeMatch: '/lync/' },
 			{ text: 'Pronghorn', link: '/pronghorn/', activeMatch: '/pronghorn/' },
-			{ text: 'RB Battles Minigames', link: '/rb-battles-minigames/', activeMatch: '/rb-battles-minigames/' },
 			{ text: 'Traitor Town', link: '/traitor-town/', activeMatch: '/traitor-town/' }
 		],
 
@@ -89,122 +88,6 @@ export default defineConfig({
 					collapsed: false,
 					items: [
 						{ text: 'What is Pronghorn?', link: '/pronghorn/' }
-					]
-				}
-			],
-			'/rb-battles-minigames/': [
-				{
-					text: 'Workshop',
-					collapsed: true,
-					items: [
-						{ text: 'Setup', link: '/rb-battles-minigames/' },
-						{ text: 'Building', link: '/rb-battles-minigames/workshop/building' },
-						{ text: 'Publishing and Testing', link: '/rb-battles-minigames/workshop/publishing-and-testing' },
-						{
-							text: 'Minigame Format',
-							collapsed: true,
-							items: [
-								{
-									text: 'Maps',
-									collapsed: false,
-									items: [
-										{ text: 'Maps', link: '/rb-battles-minigames/workshop/minigame-format/Maps/' },
-										{ text: 'LightingSettings', link: '/rb-battles-minigames/workshop/minigame-format/Maps/LightingSettings' },
-										{ text: 'Collision groups', link: '/rb-battles-minigames/workshop/minigame-format/Maps/collision-groups' }
-									]
-								},
-								{ text: 'Settings', link: '/rb-battles-minigames/workshop/minigame-format/Settings' },
-								{ text: 'Server', link: '/rb-battles-minigames/workshop/minigame-format/Server' },
-								{
-									text: 'Client',
-									collapsed: false,
-									items: [
-										{ text: 'Client', link: '/rb-battles-minigames/workshop/minigame-format/Client/' },
-										{ text: 'SpectateLogic', link: '/rb-battles-minigames/workshop/minigame-format/Client/SpectateLogic' }
-									]
-								}
-							]
-						},
-						{
-							text: 'Script API',
-							collapsed: true,
-							items: [
-								{
-									text: 'Shared',
-									collapsed: false,
-									items: [
-										{
-											text: 'Pronghorn',
-											collapsed: false,
-											items: [
-												{ text: 'Pronghorn', link: '/rb-battles-minigames/workshop/script-api/Shared/Pronghorn/' },
-												{ text: 'New', link: '/rb-battles-minigames/workshop/script-api/Shared/Pronghorn/New' }
-											]
-										},
-										{
-											text: 'Utils',
-											collapsed: false,
-											items: [
-												{ text: 'Math', link: '/rb-battles-minigames/workshop/script-api/Shared/Utils/Math' }
-											]
-										},
-										{ text: 'ConfettiCannon', link: '/rb-battles-minigames/workshop/script-api/Shared/ConfettiCannon' },
-										{ text: 'HumanoidDescriptions', link: '/rb-battles-minigames/workshop/script-api/Shared/HumanoidDescriptions' },
-										{ text: 'Janitor', link: '/rb-battles-minigames/workshop/script-api/Shared/Janitor' },
-										{ text: 'QSpring', link: '/rb-battles-minigames/workshop/script-api/Shared/QSpring' },
-										{ text: 'Spring', link: '/rb-battles-minigames/workshop/script-api/Shared/Spring' }
-									]
-								},
-								{
-									text: 'Server',
-									collapsed: false,
-									items: [
-										{
-											text: 'Services',
-											collapsed: false,
-											items: [
-												{ text: 'PlayerCollisions', link: '/rb-battles-minigames/workshop/script-api/Server/Services/PlayerCollisions' },
-												{ text: 'PlayerService', link: '/rb-battles-minigames/workshop/script-api/Server/Services/PlayerService' },
-												{ text: 'RoundService', link: '/rb-battles-minigames/workshop/script-api/Server/Services/RoundService' },
-												{ text: 'RoundStatsService', link: '/rb-battles-minigames/workshop/script-api/Server/Services/RoundStatsService' },
-												{ text: 'SoundService', link: '/rb-battles-minigames/workshop/script-api/Server/Services/SoundService' }
-											]
-										},
-										{ text: 'MinigameScoringUtility', link: '/rb-battles-minigames/workshop/script-api/Server/MinigameScoringUtility' },
-										{ text: 'Team', link: '/rb-battles-minigames/workshop/script-api/Server/Team' }
-									]
-								},
-								{
-									text: 'Client',
-									collapsed: false,
-									items: [
-										{
-											text: 'Controllers',
-											collapsed: false,
-											items: [
-												{ text: 'AvatarController', link: '/rb-battles-minigames/workshop/script-api/Client/Controllers/AvatarController' },
-												{ text: 'ContextButtonController', link: '/rb-battles-minigames/workshop/script-api/Client/Controllers/ContextButtonController' },
-												{ text: 'CustomCameraController', link: '/rb-battles-minigames/workshop/script-api/Client/Controllers/CustomCameraController' },
-												{ text: 'OverheadTextController', link: '/rb-battles-minigames/workshop/script-api/Client/Controllers/OverheadTextController' },
-												{ text: 'RoundController', link: '/rb-battles-minigames/workshop/script-api/Client/Controllers/RoundController' },
-												{ text: 'RoundStatsController', link: '/rb-battles-minigames/workshop/script-api/Client/Controllers/RoundStatsController' },
-												{ text: 'SoundController', link: '/rb-battles-minigames/workshop/script-api/Client/Controllers/SoundController' },
-												{ text: 'SpectateController', link: '/rb-battles-minigames/workshop/script-api/Client/Controllers/SpectateController' },
-												{ text: 'TopBarUI', link: '/rb-battles-minigames/workshop/script-api/Client/Controllers/TopBarUI' }
-											]
-										},
-										{
-											text: 'Modules',
-											collapsed: false,
-											items: [
-												{ text: 'CameraShaker', link: '/rb-battles-minigames/workshop/script-api/Client/Modules/CameraShaker' },
-												{ text: 'SimpleUI', link: '/rb-battles-minigames/workshop/script-api/Client/Modules/SimpleUI' }
-											]
-										}
-									]
-								}
-							]
-						}
 					]
 				}
 			],

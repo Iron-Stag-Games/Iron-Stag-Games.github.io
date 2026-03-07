@@ -60,12 +60,3 @@ Lync uses Roblox plugin API to sync content. Similar file sync tools rely on par
 Lync is written in [Node.js](https://nodejs.org/) and compiled with [pkg](https://github.com/vercel/pkg).
 
 As is the case with most thirdparty Roblox tooling, its source is publicly available and can be modified if needed.
-
-## Games Made With Lync
-
-::: info Games Made With Lync
-- [Claw Machine Simulator - RB Battles Games](https://www.roblox.com/games/6891812658)
-- [ExoTech - Iron Stag Games](https://www.roblox.com/games/7634484468)
-- [RB Battles - RB Battles Games](https://www.roblox.com/games/5036207802)
-- [Traitor Town - Traitor Town](https://www.roblox.com/games/255236425)
-:::
