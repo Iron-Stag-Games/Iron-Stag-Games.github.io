@@ -185,7 +185,6 @@ export default defineConfig({
 												{ text: 'AvatarController', link: '/rb-battles-minigames/workshop/script-api/Client/Controllers/AvatarController' },
 												{ text: 'ContextButtonController', link: '/rb-battles-minigames/workshop/script-api/Client/Controllers/ContextButtonController' },
 												{ text: 'CustomCameraController', link: '/rb-battles-minigames/workshop/script-api/Client/Controllers/CustomCameraController' },
-												{ text: 'MainUIController', link: '/rb-battles-minigames/workshop/script-api/Client/Controllers/MainUIController' },
 												{ text: 'OverheadTextController', link: '/rb-battles-minigames/workshop/script-api/Client/Controllers/OverheadTextController' },
 												{ text: 'RoundController', link: '/rb-battles-minigames/workshop/script-api/Client/Controllers/RoundController' },
 												{ text: 'RoundStatsController', link: '/rb-battles-minigames/workshop/script-api/Client/Controllers/RoundStatsController' },
