@@ -13,7 +13,7 @@ local OverheadTextController = require(ReplicatedStorage.ClientModules.Controlle
 Toggles character labels for other characters.
 
 ```lua
-OverheadTextController:ShowAllOtherPlayers(state: boolean)
+OverheadTextController:ShowAllOtherPlayers(state: boolean): ()
 ```
 
 ### ShowOverheadLocally
@@ -21,5 +21,5 @@ OverheadTextController:ShowAllOtherPlayers(state: boolean)
 Toggles character labels for the local character.
 
 ```lua
-OverheadTextController:ShowOverheadLocally(state: boolean)
+OverheadTextController:ShowOverheadLocally(state: boolean): ()
 ```
